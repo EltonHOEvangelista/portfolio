@@ -30,14 +30,14 @@ const Home = () => {
     //Handle load initial data
     const loadData = () => {
 
-        // axios.post(`${import.meta.env.VITE_API_URL}/load`)
-        // .then(response => {
-        //   console.log('Data loaded: ', response.data);
-        //   fetchAbout();
-        // })
-        // .catch(error => {
-        //   console.error('There was an error loadind data!', error);
-        // });
+        axios.post(`${import.meta.env.VITE_API_URL}/load`)
+        .then(response => {
+          console.log('Data loaded: ', response.data);
+          fetchAbout();
+        })
+        .catch(error => {
+          console.error('There was an error loadind data!', error);
+        });
     };
 
     //Display empty page.
