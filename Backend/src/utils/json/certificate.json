@@ -1,0 +1,26 @@
+[
+  {
+    "Title": "Cloud Digital Leader Certification",
+    "Issuer": "Google Cloud",
+    "Period": "May 04, 2024",
+    "IssuerURL": "https://www.credly.com/badges/aa39d6a7-b367-43fa-ac1f-c8f003026e6f/public_url",
+    "CertificateImg": "CloudDLImg",
+    "Skills": "Artificial Intelligence (AI), Cloud Computing, Cloud Digital Leader, Cloud Security, Data Governance, Google Cloud, Google Cloud Platform (GCP), IT Digital Transformation, Security and Trust"
+  },
+  {
+    "Title": "Kotlin Essential Training: Functions, Collections, and I/O",
+    "Issuer": "LinkedIn Learning",
+    "Period": "January 29, 2024",
+    "IssuerURL": "https://www.linkedin.com/learning/certificates/9402a73063128bfd3b95abea391c635c561b210c3515769550235726cfec98aa?u=2105105",
+    "CertificateImg": "KotlinEssentialImg",
+    "Skills": "Kotlin, Android Development"
+  },
+  {
+    "Title": "Computer Vision on the Raspberry Pi",
+    "Issuer": "LinkedIn Learning",
+    "Period": "July 4, 2024",
+    "IssuerURL": "https://www.linkedin.com/learning/certificates/1249ce490decf80188a4b45d39dcf82d196128471ad3bae050563c3431103ceb?u=2105105",
+    "CertificateImg": "ComputerVisionImg",
+    "Skills": "Computer Vision, Raspberry Pi"
+  }
+]

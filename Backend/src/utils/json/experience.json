@@ -1,0 +1,94 @@
+[
+  {
+    "Company": "Autotrac Telecommunications",
+    "Website": "www.autotrac.com.br",
+    "Description": "Founded in 1994, specializes in creating advanced solutions for mobile data communication, positioning, telemetry and automation, specifically tailored for fleet management and field services. The company offers a robust infrastructure that integrates satellite and ground-based communication technologies, hybrid cloud systems, and custom embedded systems, ensuring seamless and efficient fleet operations. Serving more than 40,000 customers – extending from big enterprises to small businesses – across a wide range of industries, including transportation and logistics, energy, agriculture, construction, food and beverage, retail, and the public sector.",
+    "Shareholders": "Shareholders include Nelson Piquet, a businessman and three-time Formula 1 World Champion, as well as the U.S.-based company Omnitracs LLC.",
+    "Location": "The company is headquartered in Brasília, with 60+ authorized branches distributed across Brazil and Argentina.",
+    "Size": "201-500 employees",
+    "Period": "Aug 2002 to Nov 2022",
+    "JobPosition": [
+      {
+        "Title": "Special Market Manager",
+        "Period": "Oct 2014 to Nov 2022",
+        "Skills": "Satellite Communications, Software as a Service (SaaS), Data Integration, Wireless Networking, Internet of Things (IoT), Mobile Applications, Business Process, Mobile Communications, Telematics, Field Service Management, Cloud Services",
+        "Duties": [
+          "Spearheaded telematics solutions for the energy, rail transportation, and public sector verticals, managing end-to-end processes including business development, seamless integration, and technical support to customers.",
+          "Collaborated with engineering leaders to design a comprehensive location, communication, and dispatch system for the energy sector. This solution integrated vehicle-embedded hardware (mobile communication and location terminal interfacing with an Android device), hybrid communication services (cellular and satellite), and a Software as a Service (SaaS) platform, enhancing operational efficiency for electricity distribution companies by optimizing field team coordination.",
+          "Collaborated with cross-functional teams to define and prioritize the product roadmap for key verticals, ensuring alignment with the company’s strategic objectives. Focused on driving revenue growth, reducing costs, and managing risks, while strategically allocating resources based on business impact and customer needs.",
+          "Managed the deployment of cloud-based telematics services for customers, overseeing SaaS provisioning, network integration (VPN), and the implementation of web and mobile APIs, along with SQL database integration to ensure seamless service delivery.",
+          "Led the modernization of legacy telematics products for the rail transportation industry, transitioning from satellite communication using Ku-band to a scalable hybrid architecture. This new architecture combined ground-based infrastructure (LTE-M as the primary channel) with satellite communication, resulting in reduced operational costs and enhanced system performance.",
+          "Provided strategic guidance and mentorship to the national dealer network, driving growth in key verticals and contributing to the company's overall success.",
+          "Collaborated with cross-functional teams to provide second-level technical support, resolving complex issues related to product performance, communication stability, and system integration, thereby ensuring high customer satisfaction.",
+          "Optimized resource management by balancing technical innovation with business objectives, effectively managing budgets, and ensuring the efficient allocation of resources."
+        ]
+      },
+      {
+        "Title": "Technical Department Manager",
+        "Period": "Aug 2008 to Sep 2014",
+        "Skills": "Internet of Things (IoT), Telematics, Cloud Services, Technical Support, Software as a Service (SaaS), Mobile Communications, Satellite Communications, Data Integration",
+        "Duties": [
+          "Orchestrated the deployment and technical support of cloud-native telematics solutions, managing SaaS provisioning, secure network integration (including VPNs), API implementation (web and mobile), and SQL database integration to ensure seamless, scalable service delivery.",
+          "Directed a team of 2 analysts and provided oversight to a network of over 60 regional support technicians nationwide.",
+          "Defined and standardized the technical infrastructure (including computing resources, operating systems, integration databases, and communication protocols) necessary for the deployment and operation of Autotrac’s telematics systems at client sites.",
+          "Developed and implemented client training programs for product portfolio usage, leveraging both e-learning platforms and in-person support to enhance client proficiency and product adoption.",
+          "Spearheaded the migration from a legacy client-server platform to a modern, scalable architecture utilizing cloud services, including SaaS models and RESTful web APIs for seamless integration.",
+          "Delivered Tier 2 technical support, resolving complex issues related to system performance, network stability, and integration challenges, ensuring optimal service reliability and customer satisfaction.",
+          "Provided strategic training and guidance to the national call center and regional technical teams, enhancing their expertise in the company’s products and services portfolio.",
+          "Facilitated customer feedback loops and conducted usability testing to drive continuous improvements in user experience and identify opportunities for product innovation.",
+          "Partnered with engineering leadership to design and refine a comprehensive product portfolio tailored to enterprise clients, aligning with market demands and emerging technologies."
+        ]
+      },
+      {
+        "Title": "Head of Product Technical Department",
+        "Period": "Jul 2007 to Aug 2008",
+        "Skills": "Product Management, Web Applications, Mobile Applications, Digital Transformation, Dispatch System Development, Prototyping and Iterative Design, Product Strategy and Roadmap Development, Cross-functional Team Leadership",
+        "Duties": [
+          "Spearheaded the design and development of a comprehensive dispatch system to enhance field service operations in the taxi and public service sectors. The solution included mobile devices running Windows Mobile for field agents, mobile data communication via cellular networks, a web-based application built with ASP.NET and SQL Server for dispatch centers, and seamless data integration across the SQL Server database.",
+          "Managed a cross-functional team of 2 product analysts and external service providers, overseeing the end-to-end development of the web and mobile application, ensuring alignment with business goals and technical requirements.",
+          "Led the product prototyping process, collaborating closely with stakeholders to iterate on designs, validate concepts, and refine features based on user feedback and technical feasibility.",
+          "Coordinated with cross-departmental teams and technical experts, ensuring smooth project execution, and aligning the product development with organizational objectives and technical constraints.",
+          "Conducted in-depth market research and competitive analysis, identifying emerging trends and opportunities to inform product strategy and shape the product roadmap for long-term success.",
+          "Delivered strategic product training and provided expert guidance to sales and technical support teams, facilitating a successful product launch and maximizing market penetration.",
+          "Optimized resource allocation by balancing innovative technical solutions with business objectives, effectively managing project budgets, and ensuring efficient use of resources to meet project milestones.",
+          "Performed ROI analysis for the launch of new products targeting niche markets, leveraging data-driven insights to assess potential profitability and guide strategic decision-making."
+        ]
+      },
+      {
+        "Title": "Technical Support Analyst",
+        "Period": "Aug 2002 to Aug 2007",
+        "Skills": "Microsoft SQL Server, Windows Server, Networking, Technical Support, Software Integration, System Deployment and Configuration, Customer Training and Support",
+        "Duties": [
+          "Delivered expert technical support for a telematics systems provider, assisting customers with technical issues, software integration, and system implementation.",
+          "Managed the deployment and configuration of telematics solutions, ensuring seamless integration with existing infrastructure.",
+          "Provided comprehensive training to customers on system usage and best practices, enhancing their ability to effectively utilize the telematics platform.",
+          "Collaborated with cross-functional teams to resolve complex issues, optimize system performance, and support ongoing product improvements.",
+          "Demonstrated strong problem-solving skills and a customer-focused approach, contributing to high levels of customer satisfaction and successful implementation of telematics solutions."
+        ]
+      }
+    ]
+  },
+  {
+    "Company": "FCA Fiat Chrysler Automobiles",
+    "Website": "https://www.fcagroup.com",
+    "Description": "FCA Group is now Stellantis, one of the world's leading automakers and a mobility provider.",
+    "Shareholders": "Sharedholders: Exor N.V. Peugeot and other investors",
+    "Location": "Minas Gerais, Brazil",
+    "Size": "15,000+ employees",
+    "Period": "Jan 1998 to Jul 2002",
+    "JobPosition": [
+      {
+        "Title": "IT Professional",
+        "Period": "Jan 1998 to Jul 2002",
+        "Skills": "Networking, Technical Support, Windows Server",
+        "Duties": [
+          "Provided technical support for desktop systems, applications, and network infrastructure in the IT department.",
+          "Assisted end-users with troubleshooting hardware and software issues, ensuring minimal downtime and high customer satisfaction.",
+          "Collaborated with senior IT staff to manage and maintain network infrastructure, including routers, switches, and cabling, to ensure stable and secure connectivity.",
+          "Collaborated with senior IT staff to deploy and update software applications and maintain an inventory of IT assets.",
+          "Gained hands-on experience in IT service management and developed a strong foundation in technical problem-solving and customer service."
+        ]
+      }
+    ]
+  }
+]

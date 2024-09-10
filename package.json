@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-concurrently": "npm install concurrently --save-dev",
+    "install-client": "cd frontend && npm install axios react react-dom react-router-dom",
+    "install-server": "cd backend && npm install express mongoose nodemon cors dotenv axios",
+    "install": "npm run install-concurrently && npm run install-client && npm run install-server",
+    "build-client": "cd frontend && npm run build",
+    "build-server": "cd backend && npm run build",
+    "build": "npm run build-client && npm run build-server",
+    "start-client": "cd frontend && npm run dev",
+    "start-server": "cd backend && npm start",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,164 @@
+Full-Stack Command Line
+
+//Back-end
+-------------------------------------------------------------------------------
+Node JS, Express and MongoDB:
+  create back-end folder and server.js
+  npm init -y
+  npm install express mongoose nodemon cors dotenv axios
+
+	nodemon: automatically restarting the node app when file changes
+	cors: to prevent unauthorized access to resources on a web page from different origins.
+	dotenv: keep passwords, API keys, and other sensitive data out of your code.
+
+  create ".env" file on back-end directory and set:
+	PORT=5000
+  DB_URI=mongodb+srv://quiz02:project%402024@cluster0.pzf1d2h.mongodb.net/finalExam
+
+//Front-end using Vite
+-------------------------------------------------------------------------------
+npm create vite@latest front-end
+(only to create a new project. If already exist, run npm install and npm run dev).
+cd front-end
+npm install axios
+npm install react-router-dom
+npm run dev
+
+//Root Directory
+-------------------------------------------------------------------------------
+npm install concurrently --save-dev
+
+Root Package.json
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-concurrently": "npm install concurrently --save-dev",
+    "install-client": "cd front-end && npm install axios",
+    "install-server": "cd back-end && npm install express mongoose nodemon cors dotenv axios",
+    "install": "npm run install-concurrently && npm run install-client && npm run install-server",
+    "build-client": "cd front-end && npm run build",
+    "build-server": "cd back-end && npm run build",
+    "build": "npm run build-client && npm run build-server",
+    "start-client": "cd front-end && npm run dev",
+    "start-server": "cd back-end && npm start",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+//check Frontend and Backend Package.json files
+
+//start app from Root
+npm start
+
+//Vercel Deployment
+-------------------------------------------------------------------------------
+Back-end: create vercel.json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
+
+//GitHub
+-------------------------------------------------------------------------------
+//First GitHub upload
+echo "# portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/EltonHOEvangelista/portfolio.git
+git push -u origin main
+
+//update GitHub repository
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+//update local code from GitHub Repository.
+git status
+git fetch
+git pull origin main
+git commit
+git status
+
+//MongoDB
+-------------------------------------------------------------------------------
+CLoud:
+mongodb: eltonevangelista@icloud.com  Vancouver@2024
+DB_URI=mongodb+srv://[login]:[password]@cluster0.pzf1d2h.mongodb.net/DBName
+Local:
+mongodb://localhost:27017/
+
+//MongoDB Command Line
+-------------------------------------------------------------------------------
+use myfirstdb
+show dbs
+db.users.insert({username: "abcd", school: "DC"})
+db.users.find()
+db.users.update({school: "DC"}, {$set: {school: "Douglas College"}})
+db.users.remove({school: "BCIT"})
+
+//Postman
+-------------------------------------------------------------------------------
+GET http://localhost:5000/getusers
+GET http://localhost:5000/getuser/?id=1	router.route("/getuser/")
+POST http://localhost:5000/adduser
+  {
+      "id": 5,
+      "email": "henrique@me.com",
+      "userName": "henrique"
+  }
+PUT http://localhost:5000/user?id=5
+  {...}
+DELETE http://localhost:5000/user?id=6
+
+
+//Front-end using React Babel
+-------------------------------------------------------------------------------
+npm i react reac-dom
+index.html
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script type="text/babel" src="./app.js"></script>
+Right-click on index.html, open with live server
+
+//Front-end using React
+-------------------------------------------------------------------------------
+npx create-react-app my-app
+Create React App tool to set up a new React project with a pre-configured structure, including react and react-dom
+cd my-app
+npm start
+
+
+//Others
+-------------------------------------------------------------------------------
+Pug:	npm install pug		//simplified html page
+FS:	npm install fs		//to read/write data from a file
+CSV:	npm install csv-parser	// converting CSV text input into arrays or objects
+
+//Unsplash
+-------------------------------------------------------------------------------
+const response = await axios.get('https://api.unsplash.com/photos/random/', {
+  params: {
+    query: imgQuery,
+    client_id: process.env.UNSPLASH_ACCESS_KEY
+  }
+});
+

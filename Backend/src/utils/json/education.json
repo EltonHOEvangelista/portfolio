@@ -1,0 +1,78 @@
+[
+  {
+    "Title": "Post-Baccalaureate Diploma, Computer and Information Systems - Emerging Technology",
+    "Period": "Jan 2023 to Dec 2024",
+    "Institution": "Douglas College, New Westminster, BC, Canada",
+    "InstitutionURL": "https://www.douglascollege.ca",
+    "Description": "...",
+    "Skills": "Full-Stack Development, Mobile Development, Software Engineer, Artificial Intelligence, Cloud Computing, Virtualization and Networking",
+    "KeyProjects": [
+      {
+        "Title": "AI on the Road",
+        "Skills": "Vertex AI (GCP), Machine Learning, Convolutional Neural Network (CNN), Android Development, Computer Vision (Google Vision API), Java, SQL Database",
+        "Description": "AI-powered application designed to enhance road safety by monitoring driver behavior and fatigue.",
+        "ProjectUrl": "https://github.com/EltonHOEvangelista",
+        "ProjectImg": "aiRoadImg"
+      },
+      {
+        "Title": "Truck Driver",
+        "Skills": "Android Development, Java, Google Map API, SQL Database",
+        "Description": "Mobile application designed to help truck owner operators get better freight by connecting them with carriers, wholesalers and retailers.",
+        "ProjectUrl": "https://github.com/EltonHOEvangelista",
+        "ProjectImg": "truckdriverImg"
+      },
+      {
+        "Title": "Daily Care AI",
+        "Skills": "Android Development, Machine Learning, Computer Vision (Google Vision API), Java, SQL Database",
+        "Description": "Using artificial intelligence, Daily Care AI aims to contribute to people's health and well-being by offering a rapid and reliable health check based on a convenient scanning of a few aspects of the patient’s face.",
+        "ProjectUrl": "https://github.com/EltonHOEvangelista",
+        "ProjectImg": "dailycareImg"
+      },
+      {
+        "Title": "Bear Chefs",
+        "Skills": "Software Engineering, Web Development, PHP, MySQL, HTML, CSS, Cloud Deployment, Google Cloud Platform (GCP), Cloud Load Balancing, DNS",
+        "Description": "A web platform connecting culinary talents, including culinary graduates, with high cuisine enthusiasts. It offers a marketplace to book private dining experiences, cooking classes, and more, while providing chefs opportunities for practical experience and exposure in the industry.",
+        "ProjectUrl": "https://github.com/EltonHOEvangelista",
+        "ProjectImg": "bearchefsImg"
+      },
+      {
+        "Title": "Auto Marketplace",
+        "Skills": "Web Application, Node JS and Express, React Vite, MongoDB, Cloud Deployment",
+        "Description": "The Auto Marketplace is a MERN stack-based car auction platform. It allows users to list vehicles, view details, place bids, and search for cars. The project showcases the integration of a NoSQL database with a modern JavaScript frontend and backend for a seamless user experience.",
+        "ProjectUrl": "https://auto-marketplace.vercel.app",
+        "ProjectImg": "automImg"
+      },
+      {
+        "Title": "Home HandShake",
+        "Skills": "UX Design, Figma, Prototyping, Usability Testing",
+        "Description": "Home Handshake is an all-in-one platform designed to revolutionize the rental experience, providing a seamless and user-centric solution for tenants, landlords, and those seeking shared accommodations.",
+        "ProjectUrl": "https://www.figma.com/proto/zMdeuvy4obxOgcPoqulN3l/W24_3375_S1_G1_HomeHandShake?node-id=35-252&t=ZfRB15vwOMG4Nvv1-1",
+        "ProjectImg": "handShakeImg"
+      }
+    ]
+  },
+  {
+    "Title": "Master of Business Administration (Executive MBA)",
+    "Period": "May 2011 to Dec 2012",
+    "Institution": "Fundação Dom Cabral (FDC), Nova Lima, MG, Brazil",
+    "InstitutionURL": "https://www.fdc.org.br/en",
+    "Description": "FDC is among the Top-10 schools in the world in the Financial Times Executive Education Rankings 2024. (https://rankings.ft.com/rankings/2956/executive-education-open-2024)",
+    "Skills": "Strategic and Results-Oriented Focus,  Ethical Decision Making, Global Business Management, Leadership and Visionary Thinking, Advanced Business Analysis and Problem-Solving"
+  },
+  {
+    "Title": "Post Graduation, Information Technology Applied to Business Strategic Management",
+    "Period": "Aug 2004 to Dec 2005",
+    "Institution": "Fundação Getúlio Vargas (FGV), Belo Horizonte, MG, Brazil",
+    "InstitutionURL": "https://portal.fgv.br/en",
+    "Description": "...",
+    "Skills": "Strategic IT Management, IT Alignment with Business Goals, Data-driven Decision Making, Innovation and Technology Trends, Technology Integration and Implementation"
+  },
+  {
+    "Title": "Bachelor’s Degree, Information Systems Administration",
+    "Period": "Aug 1997 to Jun 2002",
+    "Institution": "Centro Universitario UNA, Belo Horizonte, MG, Brazil",
+    "InstitutionURL": "https://www.una.br",
+    "Description": "...",
+    "Skills": "System Analysis and Design, Software Development, Network Administration and Project Management"
+  }
+]

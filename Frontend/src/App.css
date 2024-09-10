@@ -1,0 +1,449 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/* 1. Navigation Bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar img {
+  height:60px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a:hover {
+  color: #f39c12;
+}
+
+.navbar ul li a.active {
+  color: #f39c12;
+}
+
+/* 2. Home Section*/
+.hero {
+  height: 100vh;
+  background: url('./assets/elton.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: justify;
+  color: #ccc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.hero h2 {
+  margin: 0px; margin-bottom: 50px;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin: 0px; margin-bottom: 10px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero button:hover {
+  background-color: #e67e22;
+}
+
+/* Main shared container */
+.main-container {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+/* Timeline Educational Component */
+.timeline-container {
+  position: relative;
+  max-width: 75%;
+  margin: 10px auto;
+  padding: 0 20px;
+  border-left: 3px solid #f39c12; /* Vertical line */
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+/* Timeline Experience Component */
+.timeline-exp-container {
+  position: relative;
+  max-width: inherit;
+  margin: 0;
+  padding: 0 0px;
+  border-left: 0.5px dotted #f39c12; /* Vertical line */
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  padding-left: 20px;
+  transition: transform 0.6s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.timeline-item-date {
+  font-size: 0.85rem;
+  color: #f39c12;
+  font-weight: bold;
+  flex: 0 0 80px; /* Fixed width for the date */
+  text-align: right; /* Align the date to the right */
+  margin-right: 20px;
+}
+
+.timeline-item-content {
+  background-color: #1f1f1f;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.timeline-exp-item-content {
+  background-color: #2a2a2a;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.timeline-item-title {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  color: #ccc;
+  text-align: justify;
+}
+
+.timeline-item-detail-header {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  color: #ccc;
+}
+
+.flex-horizontal {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: -10px;
+}
+
+.flex-vertical {
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  flex-direction: column;
+  margin-bottom: 0px;
+  line-height: 1;
+  max-width: 500px;
+}
+
+.flex-horizontal-img {
+  max-height: 25px;
+}
+
+.flex-horizontal-logo {
+  max-height: 50px;
+  border-radius: 8px;
+}
+
+.badge-container {
+  height: auto;
+  width: 200px;
+  padding: 20px 10px;
+}
+
+.badge-container-logo {
+  width: 100%; /* Image takes full width */
+  height: auto; /* Auto height to maintain aspect ratio */
+}
+
+.seeDetailIcon {
+  height: 8px;
+}
+
+.timeline-item-details {
+  display: none; /* Hide content by default */
+}
+
+.timeline-item-description{
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  text-align: left;
+  color: #ccc;
+  font-style: italic;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item-content:hover .timeline-item-details {
+  display: block; /* Show content on hover */
+}
+
+.timeline-item-content:hover .seeDetailIcon {
+  display: none; /* Hide seeDetailIcon on hover */
+}
+
+.timeline-item-content:hover .timeline-item-detail-header {
+  display: none; /* Hide seeDetailIcon on hover */
+}
+
+.timeline-item-header-text {
+  font-size: 0.8rem;
+  text-align: justify;
+  color: #888;
+  font-style: italic;
+}
+
+.timeline-item-body-text {
+  font-size: 0.9rem;
+  text-align: justify;
+  color: #ccc;
+}
+
+/* 4. Carousel Component */
+.carousel {
+  display: grid; /* Use CSS Grid for layout */
+  grid-auto-flow: column; /* Arrange items horizontally */
+  grid-auto-columns: min-content; /* Items take up as much width as they need */
+  gap: 16px; /* Gap between items */
+  padding: 2px; /* Padding around the carousel */
+  padding-top: 8px;
+  margin-top: -10px;
+  scroll-behavior: smooth; /* Smooth scrolling */
+  align-items: start; /* Align items to the top */
+  justify-content: center; /* Align items to the left */
+  width: inherit; /* Full width of the container */
+  height: auto; /* auto Height is auto to fit content */
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.carousel-item {
+  display: grid; /* Make each item a grid */
+  grid-template-rows: auto 0.5fr auto; /* Three rows: auto height for image, 1fr for details, and auto for additional row */
+  background-color: rgba(255, 255, 255);
+  border-radius: 8px; /* Rounded corners for each item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for each item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 90px; /* Width of each item (adjust as needed) */
+  height: auto;
+  position: relative;
+  overflow: visible; /* Allows the child to overflow */
+}
+
+.carousel-card {
+  width: inherit; /* Full width of the item */
+  max-height: 100px;
+  overflow: hidden; /* Hide overflow */
+}
+
+.carousel-card img {
+  width: 100%; /* Image takes full width */
+  height: auto; /* Auto height to maintain aspect ratio */
+  display: block; /* Ensure no extra space below image */
+}
+
+.carousel-card-title {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white; /* Text color */
+  font-size: 0.6rem; /* Smaller font size */
+  width: inherit;
+  margin: 0;
+  padding: 0px;  
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-card-details {
+  display: none; /* Hide details by default */
+  padding: 10px; /* Padding for details */
+  margin-top: 10px;
+  bottom: 0;
+  left: 0;
+  text-align: justify;
+  background-color: rgba(0, 0, 0);
+  color: #888;
+  font-size: 0.8rem; /* Smaller font size */
+  border-radius: 8px 8px 8px 8px; /* Rounded corners only at the bottom */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Box shadow for better visibility */
+  transform: translateX(-30%);
+  z-index: 1;  /* Higher value to float above other elements */
+  min-width: 400px;
+  max-width: 800px;
+  position:relative;
+}
+
+.carousel-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-item:hover .carousel-card-details {
+  display: block; /* Show content on hover */
+}
+
+/* 5. Form Component */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Raleway', sans-serif;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  color: #ccc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form button:hover {
+  background-color: #e67e22;
+}
+
+
+/* 7. Footer */
+.footer {
+  background-color: #1f1f1f;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer a {
+  color: #f39c12;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+.footerIcon {
+  max-height: 40px;
+  margin: 0 10px;
+}

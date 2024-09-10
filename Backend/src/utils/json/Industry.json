@@ -1,0 +1,27 @@
+[
+  {
+    "Title": "Trucking Industry",
+    "Description": "Telematics systems in the trucking industry improve fleet efficiency through real-time tracking, route optimization, maintenance alerts, driver behavior monitoring, and compliance management, enhancing safety and reducing costs.",
+    "IndustryImg": "TruckingImg"
+  },
+  {
+    "Title": "Freight Rail",
+    "Description": "Mobile data communication and geolocation systems applied to rail traffic control, enabling real-time monitoring and coordination through advanced traffic license control systems, ensuring efficient train operations, safety and regulatory compliance.",
+    "IndustryImg": "RailImg"
+  },
+  {
+    "Title": "Heavy Equipment",
+    "Description": "Telematics systems in heavy equipment improve operational efficiency by enabling real-time monitoring, predictive maintenance, usage tracking, safety alerts, and optimized fleet management, reducing downtime and costs.",
+    "IndustryImg": "ConstructionMachineryImg"
+  },
+  {
+    "Title": "Automotive Industry (OEM & Aftermarket)",
+    "Description": "Telematics systems in the automotive industry, both OEM and aftermarket, enable enhanced vehicle connectivity, real-time diagnostics and remote monitoring.",
+    "IndustryImg": "AutomotiveImg"
+  },
+  {
+    "Title": "Electric Utility (Distribution)",
+    "Description": "Dispatch systems optimize field service operations in the electric utility distribution sector by enhancing resource allocation, real-time scheduling, and communication, leading to improved response times and operational efficiency.",
+    "IndustryImg": "UtilityImg"
+  }
+]
