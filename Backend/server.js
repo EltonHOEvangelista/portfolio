@@ -11,8 +11,15 @@ config();
 //Setup express
 const app = express();
 
+// Define the CORS options
+const corsOptions = {
+    origin: process.env.FRONTEND_URL, //frontend's URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Allowed request headers
+  };
+
 //Middleware to prevent unauthorized access
-app.use(cors());
+app.use(cors(corsOptions));
 
 //Middleware to parse JSON bodies (req.body).
 app.use(json());
