@@ -1,11 +1,18 @@
 [
   {
+    "Company": "Professional Development",
+    "Website": "https://www.douglascollege.ca/program/pbdcis",
+    "Description": "After a long and rewarding career at AUTOTRAC, I am now embarking on the next phase of my professional journey. I am currently enhancing my expertise through a Computer and Information Systems postgraduate program focused on Emerging Technologies, positioning myself to tackle new challenges with even greater insight.",
+    "Location": "Location: Greater Vancouver, British Columbia, Canada",
+    "Period": "Jan 2023 to Dec 2024"
+  },
+  {
     "Company": "Autotrac Telecommunications",
     "Website": "www.autotrac.com.br",
     "Description": "Founded in 1994, specializes in creating advanced solutions for mobile data communication, positioning, telemetry and automation, specifically tailored for fleet management and field services. The company offers a robust infrastructure that integrates satellite and ground-based communication technologies, hybrid cloud systems, and custom embedded systems, ensuring seamless and efficient fleet operations. Serving more than 40,000 customers – extending from big enterprises to small businesses – across a wide range of industries, including transportation and logistics, energy, agriculture, construction, food and beverage, retail, and the public sector.",
     "Shareholders": "Shareholders include Nelson Piquet, a businessman and three-time Formula 1 World Champion, as well as the U.S.-based company Omnitracs LLC.",
-    "Location": "The company is headquartered in Brasília, with 60+ authorized branches distributed across Brazil and Argentina.",
-    "Size": "201-500 employees",
+    "Location": "Location: Headquartered in Brasília (Brazil), with 60+ authorized branches distributed across Brazil and Argentina. Size: ",
+    "Size": "500+ employees",
     "Period": "Aug 2002 to Nov 2022",
     "JobPosition": [
       {
@@ -13,7 +20,7 @@
         "Period": "Oct 2014 to Nov 2022",
         "Skills": "Satellite Communications, Software as a Service (SaaS), Data Integration, Wireless Networking, Internet of Things (IoT), Mobile Applications, Business Process, Mobile Communications, Telematics, Field Service Management, Cloud Services",
         "Duties": [
-          "Spearheaded telematics solutions for the energy, rail transportation, and public sector verticals, managing end-to-end processes including business development, seamless integration, and technical support to customers.",
+          "Spearheaded telematics solutions for the energy, freight rail, and public sector verticals, managing end-to-end processes including business development, seamless integration, and technical support to customers.",
           "Collaborated with engineering leaders to design a comprehensive location, communication, and dispatch system for the energy sector. This solution integrated vehicle-embedded hardware (mobile communication and location terminal interfacing with an Android device), hybrid communication services (cellular and satellite), and a Software as a Service (SaaS) platform, enhancing operational efficiency for electricity distribution companies by optimizing field team coordination.",
           "Collaborated with cross-functional teams to define and prioritize the product roadmap for key verticals, ensuring alignment with the company’s strategic objectives. Focused on driving revenue growth, reducing costs, and managing risks, while strategically allocating resources based on business impact and customer needs.",
           "Managed the deployment of cloud-based telematics services for customers, overseeing SaaS provisioning, network integration (VPN), and the implementation of web and mobile APIs, along with SQL database integration to ensure seamless service delivery.",
@@ -73,7 +80,7 @@
     "Website": "https://www.fcagroup.com",
     "Description": "FCA Group is now Stellantis, one of the world's leading automakers and a mobility provider.",
     "Shareholders": "Sharedholders: Exor N.V. Peugeot and other investors",
-    "Location": "Minas Gerais, Brazil",
+    "Location": "Location: Greater Belo Horizonte, MG, Brazil. Size: ",
     "Size": "15,000+ employees",
     "Period": "Jan 1998 to Jul 2002",
     "JobPosition": [

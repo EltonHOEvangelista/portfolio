@@ -44,7 +44,7 @@ const Certificate = () => {
     return (
         <>
             <div className='main-container'>
-                <h1>Industry Certificates</h1>
+                <h1>Recent Industry Certificates</h1>
                 <div className="timeline-container">
                     {certificate.map((badge, index) => (
                         <div className="timeline-item" key={index}>

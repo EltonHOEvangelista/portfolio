@@ -244,6 +244,7 @@ span {
 .badge-container-logo {
   width: 100%; /* Image takes full width */
   height: auto; /* Auto height to maintain aspect ratio */
+  border-radius: 8px;
 }
 
 .seeDetailIcon {
@@ -283,7 +284,7 @@ span {
 .timeline-item-header-text {
   font-size: 0.8rem;
   text-align: justify;
-  color: #888;
+  color: #ccc;
   font-style: italic;
 }
 
@@ -296,37 +297,37 @@ span {
 /* 4. Carousel Component */
 .carousel {
   display: grid; /* Use CSS Grid for layout */
-  grid-auto-flow: column; /* Arrange items horizontally */
+  grid-auto-flow: row; /* Arrange items horizontally */
   grid-auto-columns: min-content; /* Items take up as much width as they need */
   gap: 16px; /* Gap between items */
-  padding: 2px; /* Padding around the carousel */
-  padding-top: 8px;
+  padding: 10px; /* Padding around the carousel */
   margin-top: -10px;
   scroll-behavior: smooth; /* Smooth scrolling */
   align-items: start; /* Align items to the top */
-  justify-content: center; /* Align items to the left */
+  justify-content: left; /* Align items to the left */
   width: inherit; /* Full width of the container */
   height: auto; /* auto Height is auto to fit content */
   position: relative;
   overflow: visible; /* Allows the child to overflow */
+
 }
 
 .carousel-item {
   display: grid; /* Make each item a grid */
-  grid-template-rows: auto 0.5fr auto; /* Three rows: auto height for image, 1fr for details, and auto for additional row */
-  background-color: rgba(255, 255, 255);
+  grid-template-columns: auto 0.5fr auto; /* Three rows: auto height for image, 1fr for details, and auto for additional row */
+  background-color: #f5f5f5;
   border-radius: 8px; /* Rounded corners for each item */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for each item */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 90px; /* Width of each item (adjust as needed) */
+  width: inherit;
   height: auto;
   position: relative;
   overflow: visible; /* Allows the child to overflow */
 }
 
 .carousel-card {
-  width: inherit; /* Full width of the item */
-  max-height: 100px;
+  width: 150px; /* Full width of the item */
+  max-height: 150px;
   overflow: hidden; /* Hide overflow */
 }
 
@@ -336,34 +337,36 @@ span {
   display: block; /* Ensure no extra space below image */
 }
 
-.carousel-card-title {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white; /* Text color */
-  font-size: 0.6rem; /* Smaller font size */
-  width: inherit;
+.carousel-card-details {
+  background-color: #2a2a2a;
+  color: #ccc;
+  font-size: 0.8rem;
   margin: 0;
-  padding: 0px;  
+  padding: 10px 20px;  
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  text-align: justify;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 610px;
+  position:relative;
 }
 
-.carousel-card-details {
-  display: none; /* Hide details by default */
-  padding: 10px; /* Padding for details */
-  margin-top: 10px;
-  bottom: 0;
-  left: 0;
-  text-align: justify;
-  background-color: rgba(0, 0, 0);
-  color: #888;
-  font-size: 0.8rem; /* Smaller font size */
-  border-radius: 8px 8px 8px 8px; /* Rounded corners only at the bottom */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Box shadow for better visibility */
-  transform: translateX(-30%);
-  z-index: 1;  /* Higher value to float above other elements */
-  min-width: 400px;
-  max-width: 800px;
-  position:relative;
+.project-skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 5px;
+}
+
+.project-skills {
+  background-color: #f39c12;
+  color: #1f1f1f;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin: 0px;
 }
 
 .carousel-item:hover {

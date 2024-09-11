@@ -5,11 +5,13 @@ import axios from 'axios';
 import seeDetailImg from '../assets/details_g.png';
 import AutotracImg from '../assets/autotrac.png';
 import FCAImg from '../assets/fcagroup.png';
+import growthImg from '../assets/growth.png';
 
 const Experience = () => {
 
     // Create an array of object to store the imported images
     const companyImages = {
+        'Professional Development': growthImg,
         'Autotrac Telecommunications': AutotracImg,
         'FCA Fiat Chrysler Automobiles': FCAImg,
     };
@@ -60,11 +62,11 @@ const Experience = () => {
                                     <p className="timeline-item-header-text">{milestone.Description}</p>
                                 </div>
                                 <div className='flex-horizontal'>
-                                    <p className="timeline-item-header-text">Size and location: {milestone.Size}. {milestone.Location}</p>
+                                    <p className="timeline-item-header-text">{milestone.Location} {milestone.Size}.</p>
                                 </div>
                                 <img className='seeDetailIcon' src={seeDetailImg} alt="detail icon"/>
                                 <div className='timeline-item-details'>
-                                    <p className='timeline-item-body-text'>Job Position:</p>
+                                    {milestone.jobPosition && <p className='timeline-item-body-text'>Job Position:</p>}
                                     <div className='timeline-exp-container'>
                                         {milestone.JobPosition.map((position, index) => (
                                             <div className="timeline-item" key={index}>

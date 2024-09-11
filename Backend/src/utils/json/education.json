@@ -9,42 +9,83 @@
     "KeyProjects": [
       {
         "Title": "AI on the Road",
-        "Skills": "Vertex AI (GCP), Machine Learning, Convolutional Neural Network (CNN), Android Development, Computer Vision (Google Vision API), Java, SQL Database",
+        "Skills": [
+          "Vertex AI (GCP)",
+          "Machine Learning",
+          "Convolutional Neural Network (CNN)",
+          "Android Development",
+          "Computer Vision (Google Vision API)",
+          "Java",
+          "SQL Database"
+        ],
         "Description": "AI-powered application designed to enhance road safety by monitoring driver behavior and fatigue.",
         "ProjectUrl": "https://github.com/EltonHOEvangelista",
         "ProjectImg": "aiRoadImg"
       },
       {
         "Title": "Truck Driver",
-        "Skills": "Android Development, Java, Google Map API, SQL Database",
+        "Skills": [
+          "Android Development",
+          "Java",
+          "Google Map API",
+          "SQL Database"
+        ],
         "Description": "Mobile application designed to help truck owner operators get better freight by connecting them with carriers, wholesalers and retailers.",
         "ProjectUrl": "https://github.com/EltonHOEvangelista",
         "ProjectImg": "truckdriverImg"
       },
       {
         "Title": "Daily Care AI",
-        "Skills": "Android Development, Machine Learning, Computer Vision (Google Vision API), Java, SQL Database",
+        "Skills": [
+          "Android Development",
+          "Machine Learning",
+          "Computer Vision (Google Vision API)",
+          "Java",
+          "SQL Database"
+        ],
         "Description": "Using artificial intelligence, Daily Care AI aims to contribute to people's health and well-being by offering a rapid and reliable health check based on a convenient scanning of a few aspects of the patient’s face.",
         "ProjectUrl": "https://github.com/EltonHOEvangelista",
         "ProjectImg": "dailycareImg"
       },
       {
         "Title": "Bear Chefs",
-        "Skills": "Software Engineering, Web Development, PHP, MySQL, HTML, CSS, Cloud Deployment, Google Cloud Platform (GCP), Cloud Load Balancing, DNS",
+        "Skills": [
+          "Software Engineering",
+          "Web Development",
+          "PHP",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "Cloud Deployment",
+          "Google Cloud Platform (GCP)",
+          "Cloud Load Balancing",
+          "DNS"
+        ],
         "Description": "A web platform connecting culinary talents, including culinary graduates, with high cuisine enthusiasts. It offers a marketplace to book private dining experiences, cooking classes, and more, while providing chefs opportunities for practical experience and exposure in the industry.",
         "ProjectUrl": "https://github.com/EltonHOEvangelista",
         "ProjectImg": "bearchefsImg"
       },
       {
         "Title": "Auto Marketplace",
-        "Skills": "Web Application, Node JS and Express, React Vite, MongoDB, Cloud Deployment",
+        "Skills": [
+          "Web Application",
+          "Node JS and Express",
+          "React Vite",
+          "MongoDB",
+          "Cloud Deployment"
+        ],
         "Description": "The Auto Marketplace is a MERN stack-based car auction platform. It allows users to list vehicles, view details, place bids, and search for cars. The project showcases the integration of a NoSQL database with a modern JavaScript frontend and backend for a seamless user experience.",
         "ProjectUrl": "https://auto-marketplace.vercel.app",
         "ProjectImg": "automImg"
       },
       {
         "Title": "Home HandShake",
-        "Skills": "UX Design, Figma, Prototyping, Usability Testing",
+        "Skills": [
+          "UX Design",
+          "Figma",
+          "Prototyping",
+          "Usability Testing"
+        ],
         "Description": "Home Handshake is an all-in-one platform designed to revolutionize the rental experience, providing a seamless and user-centric solution for tenants, landlords, and those seeking shared accommodations.",
         "ProjectUrl": "https://www.figma.com/proto/zMdeuvy4obxOgcPoqulN3l/W24_3375_S1_G1_HomeHandShake?node-id=35-252&t=ZfRB15vwOMG4Nvv1-1",
         "ProjectImg": "handShakeImg"

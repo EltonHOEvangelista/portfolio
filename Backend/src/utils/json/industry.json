@@ -1,27 +1,27 @@
 [
   {
     "Title": "Trucking Industry",
-    "Description": "Telematics systems in the trucking industry improve fleet efficiency through real-time tracking, route optimization, maintenance alerts, driver behavior monitoring, and compliance management, enhancing safety and reducing costs.",
+    "Description": "Orchestrated the deployment and technical support of cloud-native telematics solutions for the trucking industry, managing SaaS provisioning, secure network integration (including VPNs), API implementation (web and mobile), and SQL database integration to ensure seamless, scalable service delivery.",
     "IndustryImg": "TruckingImg"
   },
   {
     "Title": "Freight Rail",
-    "Description": "Mobile data communication and geolocation systems applied to rail traffic control, enabling real-time monitoring and coordination through advanced traffic license control systems, ensuring efficient train operations, safety and regulatory compliance.",
+    "Description": "Led the modernization of legacy telematics products for the freight rail industry, transitioning from satellite communication using Ku-band to a scalable hybrid architecture. This new architecture combined ground-based infrastructure (LTE-M as the primary channel) with satellite communication, resulting in reduced operational costs and enhanced system performance.",
     "IndustryImg": "RailImg"
   },
   {
     "Title": "Heavy Equipment (Construction Machinery)",
-    "Description": "Telematics systems in heavy equipment improve operational efficiency by enabling real-time monitoring, predictive maintenance, usage tracking, safety alerts, and optimized fleet management, reducing downtime and costs.",
+    "Description": "Led the deployment of telematics products for the heavy equipment industry, providing real-time monitoring and telemetry solutions for construction machinery.",
     "IndustryImg": "ConstructionMachineryImg"
   },
   {
     "Title": "Automotive Industry (OEM & Aftermarket)",
-    "Description": "Telematics systems in the automotive industry, both OEM and aftermarket, enable enhanced vehicle connectivity, real-time diagnostics and remote monitoring.",
+    "Description": "Collaborated with cross-functional teams to deploy OEM telematics products for the automotive industry, enabling enhanced truck connectivity, real-time diagnostics and remote monitoring.",
     "IndustryImg": "AutomotiveImg"
   },
   {
     "Title": "Electric Utility (Distribution)",
-    "Description": "Dispatch systems optimize field service operations in the electric utility distribution sector by enhancing resource allocation, real-time scheduling, and communication, leading to improved response times and operational efficiency.",
+    "Description": "Collaborated with engineering leaders to design a comprehensive location, communication, and dispatch system for the energy sector. This solution integrated vehicle-embedded hardware (mobile communication and location terminal interfacing with an Android device), hybrid communication services (cellular and satellite), and a Software as a Service (SaaS) platform, enhancing operational efficiency for electricity distribution companies by optimizing field team coordination.",
     "IndustryImg": "UtilityImg"
   }
 ]

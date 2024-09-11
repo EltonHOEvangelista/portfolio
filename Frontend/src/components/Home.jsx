@@ -1,10 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import {useNavigate} from 'react-router-dom';
 import axios from 'axios';
 
 const Home = () => {
-
-    const navigate = useNavigate();
 
     //attribute and set method for list of itens
     const [about, setAbout] = useState([]);
@@ -56,7 +53,8 @@ const Home = () => {
                                 <h2>{item.Title}</h2>
                                 <p>{item.Intro}</p>
                                 <p>{item.Biography}</p>
-                                <button onClick={loadData}>Download Resume</button>
+                                <p>{item.Goal}</p>
+                                <button onClick={() => window.open(item.LinkedIn, '_blank')} >Contact Me</button>
                             </div>
                         );
                     })

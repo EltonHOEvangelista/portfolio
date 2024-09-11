@@ -75,7 +75,7 @@ const Education = () => {
                                     <p className='timeline-item-header-text'><span>Skills</span>: {milestone.Skills}</p>
                                     {milestone.KeyProjects.length > 0 &&
                                     <div className="carousel-container">
-                                        <p className='timeline-item-body-text'>Academic Projects:</p>
+                                        <p className='timeline-item-header-text'>Featured Academic Projects:</p>
                                         <ul className='carousel'>
                                             {milestone.KeyProjects.map((project, index) => (
                                                 <>
@@ -83,12 +83,14 @@ const Education = () => {
                                                             <div className='carousel-card'>
                                                                 <a href={project.ProjectUrl} target='_blank' rel='noopener noreferrer'><img src={projectImages[project.ProjectImg]} alt="project icon" /></a>
                                                             </div>
-                                                            <div className='carousel-card-title'>
-                                                                <p>{project.Title}</p>
-                                                            </div>
                                                             <div className='carousel-card-details'>
+                                                                <p><span>Title</span>: {project.Title}</p>
                                                                 <p><span>Description</span>: {project.Description}</p>
-                                                                <p><span>Applied Technologies</span>: {project.Skills}</p>
+                                                                <div className='project-skills-container'>
+                                                                    {project.Skills.map((skill, index) => (
+                                                                        <p className='project-skills'>{skill}</p>
+                                                                    ))}
+                                                                </div>
                                                             </div>
                                                         </li>
                                                     </a>                     

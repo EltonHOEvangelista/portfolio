@@ -10,6 +10,7 @@ import mongoose from 'mongoose';
         Intro: { type: String, required: true },
         ProfileImg: { type: String },
         Biography: { type: String, required: true },
+        Goal: { type: String, required: true },
         LinkedIn: { type: String },
         GitHub: { type: String }
         // time: { type: Date, default: Date.now },

@@ -11,16 +11,12 @@ config();
 //Setup express
 const app = express();
 
+//Configure CORS to allow requests from all origins.
+//Middleware to prevent unauthorized access
+app.use(cors());
+
 //Middleware to parse JSON bodies (req.body).
 app.use(json());
-
-// Configure CORS to allow requests from your Vercel frontend
-app.use(cors({
-    origin: 'https://portfolio-one-pi-34.vercel.app/',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Add allowed HTTP methods
-    allowedHeaders: ['Content-Type', 'Authorization'],  // Add allowed headers
-    credentials: true  // If using cookies or other credentials
-  }));
 
 //Use the environment variables
 const port = process.env.PORT;

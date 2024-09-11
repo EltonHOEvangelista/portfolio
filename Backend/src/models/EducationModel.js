@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
     //Key Projects schema. Sub-item of education schema
     const projectSchema = new Schema({
         Title: { type: String, required: true },
-        Skills: { type: String, required: true },
+        Skills: { type: Array  },
         Description: { type: String, required: true },
         ProjectUrl: { type: String },
         ProjectImg: { type: String }
