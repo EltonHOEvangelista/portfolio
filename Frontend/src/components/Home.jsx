@@ -60,7 +60,7 @@ const Home = () => {
                     })
                 }
             </div>
-            <div><button onClick={loadData}>Load Resume</button></div>
+            {/* <div><button onClick={loadData}>Load Resume</button></div> */}
         </>
     );
 }
