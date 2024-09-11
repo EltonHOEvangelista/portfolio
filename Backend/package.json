@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npm install express mongoose nodemon cors dotenv axios",
+    "install": "npm install express mongoose nodemon dotenv axios",
     "build": "npm run build",
     "start": "node server.js"
   },
@@ -15,7 +15,6 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.5",
-    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.5.4",
