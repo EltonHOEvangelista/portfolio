@@ -30,7 +30,8 @@ span {
 }
 
 .navbar img {
-  height:60px;
+  height:80px;
+  border-radius: 8px;
 }
 
 .navbar ul {
