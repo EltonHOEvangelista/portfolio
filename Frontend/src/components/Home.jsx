@@ -44,11 +44,11 @@ const Home = () => {
 
     return (
         <>
-            <div className='hero'>
+            <div className='home-container'>
                 {
                     about.map((item, index) => {
                         return (
-                            <div className='hero-container' key={index}>
+                            <div className='home-content' key={index}>
                                 <h1>{item.Name}</h1>
                                 <h2>{item.Title}</h2>
                                 <p>{item.Intro}</p>

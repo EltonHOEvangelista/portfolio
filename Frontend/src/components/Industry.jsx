@@ -47,7 +47,7 @@ const Industry = () => {
 
     return (
         <>
-            <div className='main-container'>
+            <div className='general-container'>
                 <h2>Throughout my career, I have specialized in the application of telematics solutions across various sectors, including:</h2>
                 <div className="timeline-container">
                     {industry.map((sector, index) => (
@@ -55,12 +55,11 @@ const Industry = () => {
                             <div className="timeline-item-content">
                                 <div className='flex-horizontal'>
                                     <div className='badge-container'>
-                                        <img className='badge-container-logo'  src={industryImages[sector.IndustryImg]} alt="Badge" />
+                                        <img src={industryImages[sector.IndustryImg]} alt="Badge" />
                                     </div>
                                     <div className='flex-vertical'>
                                         <p className="timeline-item-title">{sector.Title}</p>
                                         <p className='timeline-item-header-text'>{sector.Description}</p>
-                                        <p></p>
                                     </div>  
                                 </div>
                             </div>

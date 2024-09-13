@@ -15,7 +15,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
 
   return (
-    <div className='container'>
+    <div className='page-container'>
       <Header />
       <Routes>
         <Route path="/" element={< Home/>} />

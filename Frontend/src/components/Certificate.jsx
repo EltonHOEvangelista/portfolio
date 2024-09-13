@@ -43,7 +43,7 @@ const Certificate = () => {
 
     return (
         <>
-            <div className='main-container'>
+            <div className='general-container'>
                 <h1>Recent Industry Certificates</h1>
                 <div className="timeline-container">
                     {certificate.map((badge, index) => (
@@ -51,7 +51,7 @@ const Certificate = () => {
                             <div className="timeline-item-content">
                                 <div><a className='flex-horizontal' href={badge.IssuerURL} target='_blank' rel='noopener noreferrer'>
                                     <div className='badge-container'>
-                                        <img className='badge-container-logo'  src={certificateImages[badge.CertificateImg]} alt="Badge" />
+                                        <img src={certificateImages[badge.CertificateImg]} alt="Badge" />
                                     </div>
                                     <div className='flex-vertical'>
                                         <p className="timeline-item-title">{badge.Title}</p>
