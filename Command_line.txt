@@ -97,6 +97,41 @@ git pull origin main
 git commit
 git status
 
+//Docker Image
+-------------------------------------------------------------------------------
+Install Docker Desktop
+login: eltonhoevangelista/Vancouver
+
+Create Dockerfile on backend directory
+
+Terminal:
+
+//Check status
+docker --version
+docker login
+
+//Push Docker image. The -t flag tags your image with a name. The . lets Docker know where it can find the Dockerfile.
+docker build -t backend-image ./
+
+//Local test
+docker run -p 8080:8080 imageID
+
+//build docker image (GCP Project Id and Image name)
+docker build -t gcr.io/api-project-627625359026/portfolio-bkend-image:latest .
+
+//authenticate Docker to your GCP project:
+gcloud auth configure-docker
+
+//push your Docker image to Google Container Registry:
+docker tag imageID gcr.io/api-project-627625359026/portfolio-bkend-image:latest
+docker push gcr.io/api-project-627625359026/portfolio-bkend-image:latest
+
+deploy Docker Image to Cloud Run
+-------------------------------------------------------------------------------
+gcloud run deploy --image gcr.io/api-project-627625359026/portfolio-bkend-image:latest --platform managed
+
+
+
 //MongoDB
 -------------------------------------------------------------------------------
 CLoud:
