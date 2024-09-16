@@ -11,15 +11,15 @@ Node JS, Express and MongoDB:
 	cors: to prevent unauthorized access to resources on a web page from different origins.
 	dotenv: keep passwords, API keys, and other sensitive data out of your code.
 
-  create ".env" file on back-end directory and set:
+  create ".env" file on backend directory and set:
 	PORT=5000
-  DB_URI=mongodb+srv://quiz02:project%402024@cluster0.pzf1d2h.mongodb.net/finalExam
+  DB_URI=mongodb+srv://user:pwd%402024@cluster0.pzf1d2h.mongodb.net/dbName
 
 //Front-end using Vite
 -------------------------------------------------------------------------------
-npm create vite@latest front-end
+npm create vite@latest frontend
 (only to create a new project. If already exist, run npm install and npm run dev).
-cd front-end
+cd frontend
 npm install axios
 npm install react-router-dom
 npm run dev
@@ -57,7 +57,7 @@ npm start
 
 //Vercel Deployment
 -------------------------------------------------------------------------------
-Back-end: create vercel.json
+In Backend folder, create vercel.json
 {
   "version": 2,
   "builds": [
@@ -74,7 +74,7 @@ Back-end: create vercel.json
   ]
 }
 
-//GitHub
+//GitHub: Create new repository on GitHub
 -------------------------------------------------------------------------------
 //First GitHub upload
 echo "# portfolio" >> README.md
@@ -152,7 +152,7 @@ gcloud run deploy --image gcr.io/api-project-627625359026/imageName:latest --pla
 //MongoDB
 -------------------------------------------------------------------------------
 CLoud:
-mongodb: eltonevangelista@icloud.com  Vancouver@2024
+mongodb: eltonevangelista@icloud.com  pwd: V2024
 DB_URI=mongodb+srv://[login]:[password]@cluster0.pzf1d2h.mongodb.net/DBName
 Local:
 mongodb://localhost:27017/
@@ -181,7 +181,7 @@ PUT http://localhost:5000/user?id=5
 DELETE http://localhost:5000/user?id=6
 
 
-//Front-end using React Babel
+//Frontend using React Babel
 -------------------------------------------------------------------------------
 npm i react reac-dom
 index.html
@@ -191,13 +191,12 @@ index.html
 <script type="text/babel" src="./app.js"></script>
 Right-click on index.html, open with live server
 
-//Front-end using React
+//Frontend using React
 -------------------------------------------------------------------------------
-npx create-react-app my-app
+npx create-react-app myApp
 Create React App tool to set up a new React project with a pre-configured structure, including react and react-dom
-cd my-app
+cd myApp
 npm start
-
 
 //Others
 -------------------------------------------------------------------------------
@@ -213,4 +212,3 @@ const response = await axios.get('https://api.unsplash.com/photos/random/', {
     client_id: process.env.UNSPLASH_ACCESS_KEY
   }
 });
-
