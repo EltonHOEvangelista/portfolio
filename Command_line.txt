@@ -102,7 +102,7 @@ git status
 Install Docker Desktop
 login: eltonhoevangelista/Vancouver
 
-Create Dockerfile on backend directory
+//Create Dockerfile on backend or frontend directory. Remove RUN npm run build in backend (required only for frontend)
 
 Terminal:
 
@@ -110,21 +110,31 @@ Terminal:
 docker --version
 docker login
 
-//Push Docker image. The -t flag tags your image with a name. The . lets Docker know where it can find the Dockerfile.
-docker build -t backend-image ./
+//Push Docker image. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
+docker build -t bkend-image ./
 
-//Local test
-docker run -p 8080:8080 imageID
+or
 
 //build docker image (GCP Project Id and Image name)
 docker build -t gcr.io/api-project-627625359026/portfolio-bkend-image:latest .
 
-//authenticate Docker to your GCP project:
+//Local test
+docker run -p 8080:8080 imageID
+
+//authenticate Docker to your GCP project. Use GCP SDK on Windows
+gcloud auth login
+gcloud config set project [PROJECT_ID]
 gcloud auth configure-docker
 
 //push your Docker image to Google Container Registry:
+docker tag sha256:ff926eb29c41dc3872f7b1599003a8151d84c123620fb3212a140dfd14f3a68c bkend-image
+docker push gcr.io/api-project-627625359026/bkend-image
+or
 docker tag imageID gcr.io/api-project-627625359026/portfolio-bkend-image:latest
-docker push gcr.io/api-project-627625359026/portfolio-bkend-image:latest
+docker push...
+
+//Checking
+gcloud container images list
 
 deploy Docker Image to Cloud Run
 -------------------------------------------------------------------------------

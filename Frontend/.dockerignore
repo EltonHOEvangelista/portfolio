@@ -1,0 +1,31 @@
+# Ignore node modules (they will be installed in the Docker container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore any local config or temporary files
+.DS_Store
+.idea
+.vscode
+*.swp
+
+# Ignore build artifacts (if applicable)
+build
+dist
+
+# Ignore coverage reports (if you're running tests)
+coverage
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Docker files (if you want to keep them out of the image)
+docker-compose.yml
+Dockerfile
