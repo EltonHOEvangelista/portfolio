@@ -1,23 +1,29 @@
-# Use a base image with your desired runtime environment
-FROM node:20-slim
+# Use a base image with Node.js
+FROM node:20-alpine
 
 # Set the working directory inside the container
-WORKDIR /app/src/frontend
+WORKDIR /app
 
-# Set any environment variables required by your backend
+# Set environment variables (if needed)
 ENV VITE_API_URL=https://bkend-image-627625359026.us-west1.run.app
 
-# Copy config file
+# Copy only package.json and package-lock.json first (optimize layer caching)
 COPY package*.json ./
 
-# Install any dependencies required by your backend
-RUN npm install --only=production
+# Install all dependencies (including devDependencies to build the app)
+RUN npm install
 
-# Copy the backend code to the container
+# Copy the rest of the application files
 COPY . .
 
-# build the app
+# Build the app for production
 RUN npm run build
 
-# Specify the command to start your frontend
-CMD npm start
+# Remove devDependencies after build to reduce image size
+# RUN npm prune --production
+
+# Expose the port that your app will run on (default is 4173 for Vite preview)
+EXPOSE 4173
+
+# Use the Vite preview command to serve the built app
+CMD ["npm", "run", "preview"]

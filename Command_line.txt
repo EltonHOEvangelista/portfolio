@@ -99,8 +99,7 @@ git status
 
 //Docker Image
 -------------------------------------------------------------------------------
-Install Docker Desktop
-login: eltonhoevangelista/Vancouver
+Install Docker Desktop (login: eltonhoevangelista/Vancouver)
 
 //Create Dockerfile on backend or frontend directory. Remove RUN npm run build in backend (required only for frontend)
 
@@ -112,6 +111,7 @@ docker login
 
 //Push Docker image. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
 docker build -t bkend-image ./
+docker build -t portfolio ./
 
 or
 
@@ -119,7 +119,15 @@ or
 docker build -t gcr.io/api-project-627625359026/portfolio-bkend-image:latest .
 
 //Local test
-docker run -p 8080:8080 imageID
+docker run -p 8080:8080 imageID   //backend
+docker run -d -p 4173:4173 my-react-vite-app    //frontend
+//-d runs the container in detached mode (in the background).
+//-p 4173:4173 maps port 4173 of the container to port 4173 on your local machine.
+//http://localhost:4173 or 8080 (backend)
+//docker logs <container_id>
+//docker ps (to see running containers)
+//docker stop <container_id>
+
 
 //authenticate Docker to your GCP project. Use GCP SDK on Windows
 gcloud auth login
