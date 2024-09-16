@@ -109,45 +109,44 @@ Terminal:
 docker --version
 docker login
 
-//Push Docker image. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
+//build docker image on Docker. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
 docker build -t bkend-image ./
 docker build -t portfolio ./
 
-or
-
-//build docker image (GCP Project Id and Image name)
-docker build -t gcr.io/api-project-627625359026/portfolio-bkend-image:latest .
+//Modify vite.config.js (port 8080 in production and 4173 in local test)
+export default defineConfig({
+  plugins: [react()],
+  preview: {
+    host: true,
+    port: 8080
+  },
+})
 
 //Local test
 docker run -p 8080:8080 imageID   //backend
-docker run -d -p 4173:4173 my-react-vite-app    //frontend
-//-d runs the container in detached mode (in the background).
+docker run -p 4173:4173 imageID   //frontend
 //-p 4173:4173 maps port 4173 of the container to port 4173 on your local machine.
-//http://localhost:4173 or 8080 (backend)
+//http://localhost:4173 (vite frontend) or 8080 (backend)
 //docker logs <container_id>
 //docker ps (to see running containers)
 //docker stop <container_id>
 
-
-//authenticate Docker to your GCP project. Use GCP SDK on Windows
+//Using GCP SDK on Windows, authenticate Docker to your GCP project. 
 gcloud auth login
-gcloud config set project [PROJECT_ID]
+gcloud config set project api-project-627625359026
 gcloud auth configure-docker
 
 //push your Docker image to Google Container Registry:
-docker tag sha256:ff926eb29c41dc3872f7b1599003a8151d84c123620fb3212a140dfd14f3a68c bkend-image
-docker push gcr.io/api-project-627625359026/bkend-image
-or
-docker tag imageID gcr.io/api-project-627625359026/portfolio-bkend-image:latest
-docker push...
+docker tag imageID gcr.io/api-project-627625359026/imageName
+e.g.: docker tag sha256:bb76681e61ed394ee03e69afa89b010f63227e59ba9d367fa94e017e5a5746ed gcr.io/api-project-627625359026/portfolio
+docker push gcr.io/api-project-627625359026/imageName
 
 //Checking
 gcloud container images list
 
 deploy Docker Image to Cloud Run
 -------------------------------------------------------------------------------
-gcloud run deploy --image gcr.io/api-project-627625359026/portfolio-bkend-image:latest --platform managed
-
+gcloud run deploy --image gcr.io/api-project-627625359026/imageName:latest --platform managed
 
 
 //MongoDB
