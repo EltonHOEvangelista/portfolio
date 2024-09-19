@@ -561,6 +561,11 @@ span {
     width: 100%;
   }
 
+  .project-card img {
+    width: 50%;
+    height: auto;
+  }
+
   .project-card-text {
     width: 100%;
     padding: 10px;

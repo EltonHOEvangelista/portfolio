@@ -24,8 +24,5 @@ EXPOSE 8080
 # Build the app for production
 RUN npm run build
 
-# Remove devDependencies after build to reduce image size
-# RUN npm prune --production
-
 # Use the Vite preview command to serve the built app
 CMD ["npm", "run", "preview"]

@@ -110,10 +110,10 @@ docker --version
 docker login
 
 //build docker image on Docker. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
-docker build -t bkend-image ./
-docker build -t portfolio ./
+docker build -t portfolio-backend ./
+docker build -t portfolio-app ./
 
-//Modify vite.config.js (port 8080 in production and 4173 in local test)
+//Frontend: Modify vite.config.js (port 8080 in production and 4173 in local test)
 export default defineConfig({
   plugins: [react()],
   preview: {
@@ -124,7 +124,7 @@ export default defineConfig({
 
 //Local test
 docker run -p 8080:8080 imageID   //backend
-docker run -p 4173:4173 imageID   //frontend
+docker run -p 4173:4173 imageID   //frontend (vite.config.js must be updated)
 //-p 4173:4173 maps port 4173 of the container to port 4173 on your local machine.
 //http://localhost:4173 (vite frontend) or 8080 (backend)
 //docker logs <container_id>
