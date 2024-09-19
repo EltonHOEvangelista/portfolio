@@ -12,9 +12,9 @@ import mongoose from 'mongoose';
         Biography: { type: String, required: true },
         Goal: { type: String, required: true },
         LinkedIn: { type: String },
-        GitHub: { type: String }
-        // time: { type: Date, default: Date.now },
-        // default: { type: Number, default: 123 }
+        GitHub: { type: String },
+        PageDescription: { type: String },
+        Copyright: { type: String },
     });
 
     const about = mongoose.model("About", aboutSchema);

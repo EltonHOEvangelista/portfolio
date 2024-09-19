@@ -33,17 +33,20 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            <p>© 2024 Elton Evangelista. All rights reserved.</p>
-            {
-                about.map((item, index) => {
-                    return (
-                        <div key={index}>
-                            <a href={item.LinkedIn} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={linkedinImg} alt='Linkedin'/></a>
-                            <a href={item.GitHub} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={githubImg} alt='github'/></a>
+            { about.map((item, index) => {
+                return (
+                    <>
+                        <div className='footer-row' key={index}>
+                            <p>{item.Copyright}</p>
+                            <div key={index}>
+                                <a href={item.LinkedIn} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={linkedinImg} alt='Linkedin'/></a>
+                                <a href={item.GitHub} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={githubImg} alt='github'/></a>
+                            </div>
                         </div>
-                    );
-                })
-            }
+                        <div className='footer-row'><p>{item.PageDescription}</p></div>
+                    </>
+                );
+            })}
         </div>
     );
 }

@@ -7,6 +7,8 @@
     "Biography": "Driven by a passion for technology and a commitment to achieving business outcomes, I have cultivated a diverse professional and academic background. My career in the technology industry has been marked by a deep expertise in telematics, including SaaS, Mobile Communication and Edge Computing, across various sectors, including trucking industry, freight rail, electric utility, automotive and construction.",
     "Goal": "I am seeking opportunities to leverage my experience in telematics, IoT, and product development to drive innovation and deliver value to customers. I am particularly interested in roles that allow me to work with cutting-edge technologies, such as Cloud Services and Edge Computing using AI, to solve complex problems and create new opportunities.",
     "LinkedIn": "https://www.linkedin.com/in/elton-evangelista-a4565925/",
-    "GitHub": "https://github.com/EltonHOEvangelista"
+    "GitHub": "https://github.com/EltonHOEvangelista",
+    "PageDescription": "I developed my portfolio website using the MERN Stack (MongoDB, Express, React, Node.js). Both the backend and frontend are hosted on Google Cloud Platform (GCP) via Cloud Run, and the source code is available on GitHub.",
+    "Copyright": "© 2024 Elton Evangelista. All rights reserved."
   }
 ]
