@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <>
             <nav className='navbar'>
-                <img src={logo} alt='logo'/>
+                <NavLink to="/"><img src={logo} alt='logo'/></NavLink>
                 <div className='navbar-menu'>
                     <button className="hamburger" onClick={loadMenu}>☰</button>
                     <ul>

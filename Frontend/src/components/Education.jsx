@@ -52,60 +52,59 @@ const Education = () => {
         return <div>Loading...</div>
     }
 
-    return (
-        <>
-            <div className='general-container'>
-                <h1>Academic Background</h1>
-                <div className="timeline-container">
-                    {education.map((milestone, index) => (
-                        <div className="timeline-item" key={index}>
-                            <div className="timeline-item-date">{milestone.Period}</div>
-                            <div className="timeline-item-content">
-                                <div className='flex-horizontal'>
-                                    <img className='degree-icon'src={degreeImg} alt="degree icon"/>
-                                    <p className="timeline-item-title">{milestone.Title}</p>
-                                </div>
-                                <div className='flex-horizontal'>
-                                    <img className='degree-icon' src={universityImg} alt="university icon"/>
-                                    <a href={milestone.InstitutionURL} target='_blank' rel='noopener noreferrer'><p className="timeline-item-title">{milestone.Institution}</p></a>
-                                </div>
-                                <div className='arrow-icon'><img src={seeDetailImg} alt="arrow icon"/></div>
-                                <div className='timeline-item-details'>
-                                    {milestone.Description !== "..." && <p className='timeline-item-description'>{milestone.Description}</p>}
-                                    <p className='timeline-item-skill'><span>Skills</span>: {milestone.Skills}</p>
-                                    {milestone.KeyProjects.length > 0 &&
-                                    <div>
-                                        <p className='timeline-item-project'>Featured Academic Projects:</p>
-                                        <ul className='project-container'>
-                                            {milestone.KeyProjects.map((project, index) => (
-                                                <>
-                                                    <a href={project.ProjectUrl} target='_blank' rel='noopener noreferrer'><li className='project-item' key={index}>
-                                                            <div className='project-card'>
-                                                                <a href={project.ProjectUrl} target='_blank' rel='noopener noreferrer'><img src={projectImages[project.ProjectImg]} alt="project icon" /></a>
+    return ( 
+        <div className='general-container'>
+            <h1>Academic Background</h1>
+            <div className="timeline-container">
+                {education.map((milestone, index) => (
+                    <div className="timeline-item" key={index}>
+                        <div className="timeline-item-date">{milestone.Period}</div>
+                        <div className="timeline-item-content">
+                            <div className='flex-horizontal'>
+                                <img className='degree-icon'src={degreeImg} alt="degree icon"/>
+                                <p className="timeline-item-title">{milestone.Title}</p>
+                            </div>
+                            <div className='flex-horizontal'>
+                                <img className='degree-icon' src={universityImg} alt="university icon"/>
+                                <a href={milestone.InstitutionURL} target='_blank' rel='noopener noreferrer'><p className="timeline-item-title">{milestone.Institution}</p></a>
+                            </div>
+                            <div className='arrow-icon'><img src={seeDetailImg} alt="arrow icon"/></div>
+                            <div className='timeline-item-details'>
+                                {milestone.Description !== "..." && <p className='timeline-item-description'>{milestone.Description}</p>}
+                                <p className='timeline-item-skill'><span>Skills</span>: {milestone.Skills}</p>
+                                {milestone.KeyProjects.length > 0 &&
+                                <div>
+                                    <p className='timeline-item-project'>Featured Academic Projects:</p>
+                                    <ul className='project-container'>
+                                        {milestone.KeyProjects.map((project, index) => (
+                                            <div key={index}>
+                                                <a href={project.ProjectUrl} target='_blank' rel='noopener noreferrer'>
+                                                    <li className='project-item'>
+                                                        <div className='project-card'>
+                                                            <img src={projectImages[project.ProjectImg]} alt="project icon" />
+                                                        </div>
+                                                        <div className='project-card-text'>
+                                                            <p><span>Title</span>: {project.Title}</p>
+                                                            <p><span>Description</span>: {project.Description}</p>
+                                                            <div className='project-skills-container'>
+                                                                {project.Skills.map((skill, index) => (
+                                                                    <div key={index}><p className='project-skill'>{skill}</p></div>
+                                                                ))}
                                                             </div>
-                                                            <div className='project-card-text'>
-                                                                <p><span>Title</span>: {project.Title}</p>
-                                                                <p><span>Description</span>: {project.Description}</p>
-                                                                <div className='project-skills-container'>
-                                                                    {project.Skills.map((skill, index) => (
-                                                                        <p className='project-skill'>{skill}</p>
-                                                                    ))}
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </a>                     
-                                                </>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    }
+                                                        </div>
+                                                    </li>
+                                                </a>                     
+                                            </div>
+                                        ))}
+                                    </ul>
                                 </div>
+                                }
                             </div>
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
-        </>
+        </div>
     );
 }
 export default Education;

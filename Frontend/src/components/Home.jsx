@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import profileImg from '../assets/elton_.jpg';
 
 const Home = () => {
 
@@ -52,7 +53,10 @@ const Home = () => {
                                 <h1>{item.Name}</h1>
                                 <h2>{item.Title}</h2>
                                 <p>{item.Intro}</p>
-                                <p>{item.Biography}</p>
+                                <div className='home-content-grid'>                                   
+                                    <img src={profileImg} alt='logo'/>
+                                    <p>{item.Biography}</p>                                  
+                                </div>
                                 <p>{item.Goal}</p>
                                 <button onClick={() => window.open(item.LinkedIn, '_blank')} >Contact Me</button>
                             </div>

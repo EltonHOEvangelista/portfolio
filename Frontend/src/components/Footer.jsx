@@ -33,20 +33,20 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            { about.map((item, index) => {
-                return (
-                    <>
-                        <div className='footer-row' key={index}>
+                { about.map((item, index) =>  (
+                    <div key={index}>
+                        <div className='footer-row' >
                             <p>{item.Copyright}</p>
-                            <div key={index}>
+                            <div>
                                 <a href={item.LinkedIn} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={linkedinImg} alt='Linkedin'/></a>
                                 <a href={item.GitHub} target='_blank' rel='noopener noreferrer'><img className='footerIcon' src={githubImg} alt='github'/></a>
                             </div>
                         </div>
-                        <div className='footer-row'><p>{item.PageDescription}</p></div>
-                    </>
-                );
-            })}
+                        <div className='footer-row'>
+                            <p>{item.PageDescription}</p>
+                        </div>
+                    </div>
+                ))}
         </div>
     );
 }

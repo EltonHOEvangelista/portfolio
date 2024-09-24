@@ -104,6 +104,20 @@ span {
   margin: -10px 0 20px 0;
 }
 
+.home-content-grid {
+  margin: 0;
+}
+
+.home-content-grid p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.home-content-grid img {
+  display: none;
+  margin: 0;
+}
+
 .home-content p {
   font-size: 1rem;
   margin: 0;
@@ -435,7 +449,6 @@ span {
   background-color: #1f1f1f;
   color: #ccc;
   font-family: 'Lato', sans-serif;
-  overflow: hidden;
 }
 
 .footer p {
@@ -446,8 +459,8 @@ span {
 }
 
 .footerIcon {
-  max-height: 40px;
-  margin: 0 10px;
+  max-height: 30px;
+  margin: 5px 10px;
 }
 
 
@@ -502,13 +515,13 @@ span {
   .home-container {
     min-height: auto;
     text-align: center;
-    background: url('./assets/elton-mobile.jpg') no-repeat center center/cover;
+    background: none;
+    background-color: black;
   }
 
   .home-content {
     width: 90%;
     padding-left: 10px;
-    color:#7f8c8d;
   }
 
   .home-content h1 {
@@ -519,9 +532,26 @@ span {
     font-size: 1.2rem;
   }
 
+  .home-content-grid p {
+    font-size: 1rem;
+    margin: 0;
+    overflow:visible;
+  }
+  
+  .home-content-grid img {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 50%;
+    height: auto;
+    margin: 0 10px 5px 0;
+    border-radius: 8px;
+  }
+
   .home-content button {
     width: 120px;
     font-size: 0.9rem;
+    margin-bottom: 20px;
   }
 
   .timeline-container {
@@ -576,7 +606,6 @@ span {
   }
 
   .footer-row {
-    margin-top: 10px;
     gap: 10px;
   }
 
@@ -590,7 +619,7 @@ span {
   
   .footerIcon {
     max-height: 25px;
-    margin: 0 5px;
+    margin: 5px 5px;
   }
 }
 

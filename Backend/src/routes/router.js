@@ -18,7 +18,7 @@ const router = Router();
 router.route("/")
     .get(async (req, res) => {
         try {
-            const aboutModels = await AboutModel.find();
+            const aboutModels = await AboutModel.find().sort({ _id: 1 });
             const result = {aboutModels};
             res.json(result);
         } catch (error) {
@@ -29,7 +29,7 @@ router.route("/")
 router.route("/education")
     .get(async (req, res) => {
         try {
-            const educationModels = await EducationModel.find();
+            const educationModels = await EducationModel.find().sort({ _id: 1 });
             const result = {educationModels};
             res.json(result);
         } catch (error) {
@@ -40,7 +40,7 @@ router.route("/education")
 router.route("/experience")
     .get(async (req, res) => {
         try {
-            const experienceModels = await ExperienceModel.find();
+            const experienceModels = await ExperienceModel.find().sort({ _id: 1 });
             const result = {experienceModels};
             res.json(result);
         } catch (error) {
@@ -51,7 +51,7 @@ router.route("/experience")
 router.route("/industry")
     .get(async (req, res) => {
         try {
-            const industryModels = await IndustryModel.find();
+            const industryModels = await IndustryModel.find().sort({ _id: 1 });
             const result = {industryModels};
             res.json(result);
         } catch (error) {
@@ -62,7 +62,7 @@ router.route("/industry")
 router.route("/certificate")
     .get(async (req, res) => {
         try {
-            const certificateModels = await CertificateModel.find();
+            const certificateModels = await CertificateModel.find().sort({ _id: 1 });
             const result = {certificateModels};
             res.json(result);
         } catch (error) {
