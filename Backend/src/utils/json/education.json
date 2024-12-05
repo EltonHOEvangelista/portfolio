@@ -5,7 +5,7 @@
     "Institution": "Douglas College, New Westminster, BC, Canada",
     "InstitutionURL": "https://www.douglascollege.ca",
     "Description": "...",
-    "Skills": "Full-Stack Development, Mobile Development, Software Engineer, Artificial Intelligence, Cloud Computing, Virtualization and Networking",
+    "Skills": "Full-Stack Development, Mobile Development, Software Engineer, Artificial Intelligence, NLP, Cloud Computing, Virtualization and Networking",
     "KeyProjects": [
       {
         "Title": "AI on the Road",
@@ -27,12 +27,25 @@
         "Skills": [
           "Android Development",
           "Java",
-          "Google Map API",
+          "Google Maps API",
           "SQL Database"
         ],
         "Description": "Mobile application designed to help truck owner operators get better freight by connecting them with carriers, wholesalers and retailers.",
         "ProjectUrl": "https://prezi.com/view/t0hylQ7YaSPBOgy6qSr2/",
         "ProjectImg": "truckdriverImg"
+      },
+      {
+        "Title": "Wine Warehouse",
+        "Skills": [
+          "AWS EC2",
+          "Pyhton/Flask",
+          "MongoDB",
+          "Android Development",
+          "Kotlin"
+        ],
+        "Description": "The Wine Warehouse system is an innovative solution tailored to optimize warehouse operations and elevate user experiences for both administrators and customers. It provides administrators with powerful tools, including real-time inventory tracking, product management, and comprehensive financial and sales reporting. Customers benefit from an intuitive mobile app that allows for effortless product browsing, availability checks, and seamless order placement, ensuring a smooth and efficient experience for all stakeholders.",
+        "ProjectUrl": "https://youtu.be/lcGOH7oFIBo",
+        "ProjectImg": "winewarehouseImg"
       },
       {
         "Title": "Daily Care AI",

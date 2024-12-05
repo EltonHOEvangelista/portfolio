@@ -85,17 +85,40 @@ git branch -M main
 git remote add origin https://github.com/EltonHOEvangelista/portfolio.git
 git push -u origin main
 
-//update GitHub repository
+//clone repository from GitHub
+git clone https://github.com/username/repository.git
+
+//update local code from GitHub
+
+
+//Switch between branches
+git checkout branch_name
+
+//merge
+git checkout source-branch (outdated)
+git pull origin source-branch (optional)
+git merge origin/merge-branch (origin/updated code)
+push to GitHub 
+
+//create branch on GitHub and push code
+git checkout -b <branch-name>
 git add .
 git commit -m "Your commit message"
-git push origin main
+git push origin branch_name //update remote repository
+git status
 
-//update local code from GitHub Repository.
+//push to GitHub
+git <branch-name>
+git add .
+git commit -m "Your commit message"
+git push origin branch_name //update remote repository
 git status
-git fetch
-git pull origin main
-git commit
-git status
+
+Others GitHub commands:
+git branch -a //check listed branches
+git ls-remote origin
+
+git fetch origin  //This will sync your local repository with the remote branches.
 
 //Docker Image
 -------------------------------------------------------------------------------
@@ -152,6 +175,7 @@ gcloud run deploy --image gcr.io/api-project-627625359026/imageName:latest --pla
 
 Docker update
 -------------------------------------------------------------------------------
+gcloud auth login (GCP SDK)
 docker build -t imageName:latest ./
 docker tag imageID gcr.io/api-project-627625359026/imageName
 docker push gcr.io/api-project-627625359026/imageName

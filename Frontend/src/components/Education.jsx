@@ -13,16 +13,18 @@ import automImg from '../assets/projects/p-autom-mp.png';
 import bearchefsImg from '../assets/projects/p-bear-chefs.png';
 import aiRoadImg from '../assets/projects/p-ai-road.png';
 import dailycareImg from '../assets/projects/p-daily-care.png';
+import winewarehouseImg from '../assets/projects/p-wine-warehouse.png';
 
 const Education = () => {
 
     // Create an array or object to store the imported images if needed
   const projectImages = {
+    'aiRoadImg': aiRoadImg,
     'truckdriverImg': truckdriverImg,
+    'winewarehouseImg': winewarehouseImg,
     'handShakeImg': handShakeImg,
     'automImg': automImg,
     'bearchefsImg': bearchefsImg,
-    'aiRoadImg': aiRoadImg,
     'dailycareImg': dailycareImg,
   };
 

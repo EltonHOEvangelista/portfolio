@@ -1,12 +1,12 @@
 [
   {
     "Title": "Trucking Industry",
-    "Description": "Orchestrated the deployment and technical support of cloud-native telematics solutions for the trucking industry, managing SaaS provisioning, secure network integration (including VPNs), API implementation (web and mobile), and SQL database integration to ensure seamless, scalable service delivery.",
+    "Description": "Led the deployment of cloud-native telematics solutions, ensuring secure integration and API development for scalable service models.",
     "IndustryImg": "TruckingImg"
   },
   {
     "Title": "Freight Rail",
-    "Description": "Led the modernization of legacy telematics products for the freight rail industry, transitioning from satellite communication using Ku-band to a scalable hybrid architecture. This new architecture combined ground-based infrastructure (LTE-M as the primary channel) with satellite communication, resulting in reduced operational costs and enhanced system performance.",
+    "Description": "Transitioned telematics systems to a hybrid architecture utilizing LTE-M and satellite communication, optimizing operational costs and boosting performance.",
     "IndustryImg": "RailImg"
   },
   {

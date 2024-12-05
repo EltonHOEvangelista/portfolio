@@ -5,12 +5,14 @@ import axios from 'axios';
 import CloudDLImg from '../assets/certificates/cloud-digital-leader.png';
 import KotlinEssentialImg from '../assets/certificates/kotlin.png';
 import ComputerVisionImg from '../assets/certificates/ComputerVision.png';
+import aiInnovationImg from '../assets/certificates/ai_google.png';
 
 const Certificate = () => {
 
     // Create an array of object to store the imported images
     const certificateImages = {
         'CloudDLImg': CloudDLImg,
+        'aiInnovationImg': aiInnovationImg,
         'KotlinEssentialImg': KotlinEssentialImg,
         'ComputerVisionImg': ComputerVisionImg,
     };
@@ -44,7 +46,7 @@ const Certificate = () => {
     return (
         <>
             <div className='general-container'>
-                <h1>Recent Industry Certificates</h1>
+                <h1>Updated Industry Certificates</h1>
                 <div className="timeline-container">
                     {certificate.map((badge, index) => (
                         <div className="timeline-item" key={index}>

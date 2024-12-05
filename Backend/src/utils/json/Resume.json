@@ -2,65 +2,57 @@
   {
     "Experience": [
       {
-        "Company": "Professional Development",
+        "Company": "Professional Development in Computer and Information Systems",
         "Website": "https://www.douglascollege.ca/program/pbdcis",
-        "Description": "After a long and rewarding career at AUTOTRAC, I am now embarking on the next phase of my professional journey. I am currently enhancing my expertise through a Computer and Information Systems postgraduate program focused on Emerging Technologies, positioning myself to tackle new challenges with even greater insight.",
+        "Description": "Currently pursuing a full-time Postgraduate Diploma in Computer and Information Systems at Douglas College, with a focus on Emerging Technologies, to further enhance my expertise and prepare for new challenges in the field.",
         "Location": "Location: Greater Vancouver, British Columbia, Canada",
         "Period": "Jan 2023 to Dec 2024"
       },
       {
         "Company": "Autotrac Telecommunications",
         "Website": "https://www.linkedin.com/company/autotracbr",
-        "Description": "Founded in 1994, specializes in creating advanced solutions for mobile data communication, positioning, telemetry and automation, specifically tailored for fleet management and field services. The company offers a robust infrastructure that integrates satellite and ground-based communication technologies, hybrid cloud systems, and custom embedded systems, ensuring seamless and efficient fleet operations. Serving more than 40,000 customers – extending from big enterprises to small businesses – across a wide range of industries, including transportation and logistics, energy, agriculture, construction, food and beverage, retail, and the public sector.",
+        "Description": "Founded in 1994, It is a Brazilian telecommunications company that specializes in fleet management and vehicle tracking solutions through GPS and mobile communication (LTE and satellite technology). Serving more than 40,000 customers – extending from big enterprises to small businesses – across a wide range of industries.",
         "Shareholders": "Shareholders include Nelson Piquet, a businessman and three-time Formula 1 World Champion, as well as the U.S.-based company Omnitracs LLC.",
         "Location": "Location: Headquartered in Brasília (Brazil), with 60+ authorized branches distributed across Brazil and Argentina. Size: ",
         "Size": "500+ employees",
         "Period": "Aug 2002 to Nov 2022",
         "JobPosition": [
           {
-            "Title": "Special Market Manager",
+            "Title": "Project Manager",
             "Period": "Oct 2014 to Nov 2022",
             "Skills": "Satellite Communications, Software as a Service (SaaS), Data Integration, Wireless Networking, Internet of Things (IoT), Mobile Applications, Business Process, Mobile Communications, Telematics, Field Service Management, Cloud Services",
             "Duties": [
-              "Spearheaded telematics solutions for the energy, freight rail, and public sector verticals, managing end-to-end processes including business development, seamless integration, and technical support to customers.",
-              "Collaborated with engineering leaders to design a comprehensive location, communication, and dispatch system for the energy sector. This solution integrated vehicle-embedded hardware (mobile communication and location terminal interfacing with an Android device), hybrid communication services (cellular and satellite), and a Software as a Service (SaaS) platform, enhancing operational efficiency for electricity distribution companies by optimizing field team coordination.",
-              "Collaborated with cross-functional teams to define and prioritize the product roadmap for key verticals, ensuring alignment with the company’s strategic objectives. Focused on driving revenue growth, reducing costs, and managing risks, while strategically allocating resources based on business impact and customer needs.",
-              "Managed the deployment of cloud-based telematics services for customers, overseeing SaaS provisioning, network integration (VPN), and the implementation of web and mobile APIs, along with SQL database integration to ensure seamless service delivery.",
-              "Led the modernization of legacy telematics products for the rail transportation industry, transitioning from satellite communication using Ku-band to a scalable hybrid architecture. This new architecture combined ground-based infrastructure (LTE-M as the primary channel) with satellite communication, resulting in reduced operational costs and enhanced system performance.",
-              "Provided strategic guidance and mentorship to the national dealer network, driving growth in key verticals and contributing to the company's overall success.",
-              "Collaborated with cross-functional teams to provide second-level technical support, resolving complex issues related to product performance, communication stability, and system integration, thereby ensuring high customer satisfaction.",
-              "Optimized resource management by balancing technical innovation with business objectives, effectively managing budgets, and ensuring the efficient allocation of resources."
+              "Led the deployment of telematics solutions in transportation and energy sectors, integrating cloud-native platforms and edge computing to optimize fleet performance.",
+              "Conducted cloud-based SaaS deployments, managing API integrations and secure network provisioning to enhance system reliability.",
+              "Transitioned telematics systems to a hybrid architecture utilizing LTE-M and satellite communication, optimizing operational costs and boosting performance.",
+              "Managed cross-functional teams to design mobile utility solutions for electric power distribution, including Android applications, on-board computing, hybrid communication (LTE, Wi-Fi, Satellite), and cloud computing integration.",
+              "Collaborated with teams to define and prioritize the product roadmap, focusing on cloud scalability to reduce infrastructure costs and improve user experience.",
+              "Led vertical growth by aligning cloud optimization strategies with customer needs and market trends, driving innovation and enhancing client satisfaction.",
+              "Managed two employees directly, conducting daily tasks, providing coaching, and evaluating performance to achieve company goals."
             ]
           },
           {
-            "Title": "Technical Department Manager",
+            "Title": "Product Portfolio Manager",
             "Period": "Aug 2008 to Sep 2014",
             "Skills": "Internet of Things (IoT), Telematics, Cloud Services, Technical Support, Software as a Service (SaaS), Mobile Communications, Satellite Communications, Data Integration",
             "Duties": [
-              "Orchestrated the deployment and technical support of cloud-native telematics solutions, managing SaaS provisioning, secure network integration (including VPNs), API implementation (web and mobile), and SQL database integration to ensure seamless, scalable service delivery.",
-              "Directed a team of 2 analysts and provided oversight to a network of over 60 regional support technicians nationwide.",
-              "Defined and standardized the technical infrastructure (including computing resources, operating systems, integration databases, and communication protocols) necessary for the deployment and operation of Autotrac’s telematics systems at client sites.",
-              "Developed and implemented client training programs for product portfolio usage, leveraging both e-learning platforms and in-person support to enhance client proficiency and product adoption.",
-              "Spearheaded the migration from a legacy client-server platform to a modern, scalable architecture utilizing cloud services, including SaaS models and RESTful web APIs for seamless integration.",
-              "Delivered Tier 2 technical support, resolving complex issues related to system performance, network stability, and integration challenges, ensuring optimal service reliability and customer satisfaction.",
-              "Provided strategic training and guidance to the national call center and regional technical teams, enhancing their expertise in the company’s products and services portfolio.",
-              "Facilitated customer feedback loops and conducted usability testing to drive continuous improvements in user experience and identify opportunities for product innovation.",
-              "Partnered with engineering leadership to design and refine a comprehensive product portfolio tailored to enterprise clients, aligning with market demands and emerging technologies."
+              "Led the deployment of cloud-native telematics solutions, ensuring secure integration and API development for scalable service models.",
+              "Implemented cloud-based SaaS models, standardizing infrastructure for telematics systems and enhancing service delivery efficiency.",
+              "Managed the migration of platforms from client-server to cloud architectures, optimizing resource allocation and reducing operational costs.",
+              "Enhanced customer experience by continuously optimizing cloud service performance and driving innovative product development.",
+              "Oversaw the annual budget, including planning, team coordination, resource management, third-party vendors, and reporting. Ensured cost predictability through cost forecasting, vendor management, and presenting budget variance reports (actual vs. forecasted) to senior management for decision-making."
             ]
           },
           {
-            "Title": "Head of Product Technical Department",
+            "Title": "Product Development Supervisor",
             "Period": "Jul 2007 to Aug 2008",
             "Skills": "Product Management, Web Applications, Mobile Applications, Digital Transformation, Dispatch System Development, Prototyping and Iterative Design, Product Strategy and Roadmap Development, Cross-functional Team Leadership",
             "Duties": [
-              "Spearheaded the design and development of a comprehensive dispatch system to enhance field service operations in the taxi and public service sectors. The solution included mobile devices running Windows Mobile for field agents, mobile data communication via cellular networks, a web-based application built with ASP.NET and SQL Server for dispatch centers, and seamless data integration across the SQL Server database.",
-              "Managed a cross-functional team of 2 product analysts and external service providers, overseeing the end-to-end development of the web and mobile application, ensuring alignment with business goals and technical requirements.",
-              "Led the product prototyping process, collaborating closely with stakeholders to iterate on designs, validate concepts, and refine features based on user feedback and technical feasibility.",
-              "Coordinated with cross-departmental teams and technical experts, ensuring smooth project execution, and aligning the product development with organizational objectives and technical constraints.",
-              "Conducted in-depth market research and competitive analysis, identifying emerging trends and opportunities to inform product strategy and shape the product roadmap for long-term success.",
-              "Delivered strategic product training and provided expert guidance to sales and technical support teams, facilitating a successful product launch and maximizing market penetration.",
-              "Optimized resource allocation by balancing innovative technical solutions with business objectives, effectively managing project budgets, and ensuring efficient use of resources to meet project milestones.",
-              "Performed ROI analysis for the launch of new products targeting niche markets, leveraging data-driven insights to assess potential profitability and guide strategic decision-making."
+              "Developed a cloud-enabled dispatch system tailored for public service sectors, improving real-time data integration and system performance.",
+              "Led cross-functional teams to align cloud-based solutions with business and technical requirements, driving innovation across mobile and web applications.",
+              "Conducted cloud performance assessments and optimized resource allocation, resulting in improved product launch outcomes and increased operational efficiency.",
+              "Managed the annual budget, including planning, team coordination, resources, third-party vendors, and reporting, ensuring cost predictability and making recommendations for decision-making to senior management.",
+              "Performed investment analysis for product roadmaps, including revenue projections, financial feasibility studies, risk assessments, business model evaluation, cost analysis, project phases, and break-even analysis to inform strategic decisions."
             ]
           },
           {
@@ -100,7 +92,6 @@
           }
         ]
       }
-
     ],
     "Education": [
       {
@@ -109,7 +100,7 @@
         "Institution": "Douglas College, New Westminster, BC, Canada",
         "InstitutionURL": "https://www.douglascollege.ca",
         "Description": "...",
-        "Skills": "Full-Stack Development, Mobile Development, Software Engineer, Artificial Intelligence, Cloud Computing, Virtualization and Networking",
+        "Skills": "Full-Stack Development, Mobile Development, Software Engineer, Artificial Intelligence, NLP, Cloud Computing, Virtualization and Networking",
         "KeyProjects": [
           {
             "Title": "AI on the Road",
@@ -131,12 +122,25 @@
             "Skills": [
               "Android Development",
               "Java",
-              "Google Map API",
+              "Google Maps API",
               "SQL Database"
             ],
             "Description": "Mobile application designed to help truck owner operators get better freight by connecting them with carriers, wholesalers and retailers.",
             "ProjectUrl": "https://prezi.com/view/t0hylQ7YaSPBOgy6qSr2/",
             "ProjectImg": "truckdriverImg"
+          },
+          {
+            "Title": "Wine Warehouse",
+            "Skills": [
+              "AWS EC2",
+              "Pyhton/Flask",
+              "MongoDB",
+              "Android Development",
+              "Kotlin"
+            ],
+            "Description": "The Wine Warehouse system is an innovative solution tailored to optimize warehouse operations and elevate user experiences for both administrators and customers. It provides administrators with powerful tools, including real-time inventory tracking, product management, and comprehensive financial and sales reporting. Customers benefit from an intuitive mobile app that allows for effortless product browsing, availability checks, and seamless order placement, ensuring a smooth and efficient experience for all stakeholders.",
+            "ProjectUrl": "https://youtu.be/lcGOH7oFIBo",
+            "ProjectImg": "winewarehouseImg"
           },
           {
             "Title": "Daily Care AI",
