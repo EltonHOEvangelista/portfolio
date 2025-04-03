@@ -5,7 +5,7 @@ Full-Stack Command Line
 Node JS, Express and MongoDB:
   create back-end folder and server.js
   npm init -y
-  npm install express mongoose nodemon cors dotenv axios
+  npm install express mongoose nodemon cors dotenv
 
 	nodemon: automatically restarting the node app when file changes
 	cors: to prevent unauthorized access to resources on a web page from different origins.
@@ -13,7 +13,7 @@ Node JS, Express and MongoDB:
 
   create ".env" file on backend directory and set:
 	PORT=5000
-  DB_URI=mongodb+srv://user:pwd%402024@cluster0.pzf1d2h.mongodb.net/dbName
+  DB_URI=mongodb+srv://user:pwd@cluster0.pzf1d2h.mongodb.net/dbName
 
 //Front-end using Vite
 -------------------------------------------------------------------------------
@@ -124,16 +124,18 @@ git fetch origin  //This will sync your local repository with the remote branche
 -------------------------------------------------------------------------------
 Install Docker Desktop (login: eltonhoevangelista/Vancouver)
 
-//Create Dockerfile on backend or frontend directory. Remove RUN npm run build in backend (required only for frontend)
+//Create Dockerfile on backend or frontend directory.
 
 Terminal:
 
 //Check status
 docker --version
-docker login
+docker login -u eltonhoevangelista
 
 //build docker image on Docker. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
+go to backend directory
 docker build -t portfolio-backend ./
+go to frontend directory
 docker build -t portfolio-app ./
 
 //Frontend: Modify vite.config.js (port 8080 in production and 4173 in local test)

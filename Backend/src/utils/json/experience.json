@@ -1,56 +1,62 @@
 [
   {
-    "Company": "Professional Development in Computer and Information Systems",
+    "Company": "Professional Development",
     "Website": "https://www.douglascollege.ca/program/pbdcis",
-    "Description": "Currently pursuing a full-time Postgraduate Diploma in Computer and Information Systems at Douglas College, with a focus on Emerging Technologies, to further enhance my expertise and prepare for new challenges in the field.",
+    "Description": "Successfully completed a full-time Post-Baccalaureate Diploma in Computer and Information Systems at Douglas College, specializing in Emerging Technologies. This program enhanced my expertise in full-stack development, machine learning, and AI-driven mobile solutions, equipping me to address complex challenges and drive innovation in the evolving telematics industry.",
     "Location": "Location: Greater Vancouver, British Columbia, Canada",
     "Period": "Jan 2023 to Dec 2024"
   },
   {
     "Company": "Autotrac Telecommunications",
     "Website": "https://www.linkedin.com/company/autotracbr",
-    "Description": "Founded in 1994, It is a Brazilian telecommunications company that specializes in fleet management and vehicle tracking solutions through GPS and mobile communication (LTE and satellite technology). Serving more than 40,000 customers – extending from big enterprises to small businesses – across a wide range of industries.",
+    "Description": "Founded in 1994, it is a Brazilian telecommunications company specialized in fleet management solutions powered by hybrid cloud infrastructure, SaaS, mobile communication and embedded systems. The company serves over 40,000 customers, ranging from large enterprises to small businesses, across diverse industries.",
     "Shareholders": "Shareholders include Nelson Piquet, a businessman and three-time Formula 1 World Champion, as well as the U.S.-based company Omnitracs LLC.",
     "Location": "Location: Headquartered in Brasília (Brazil), with 60+ authorized branches distributed across Brazil and Argentina. Size: ",
     "Size": "500+ employees",
     "Period": "Aug 2002 to Nov 2022",
     "JobPosition": [
       {
-        "Title": "Project Manager",
+        "Title": "Customer-centric Product Manager",
         "Period": "Oct 2014 to Nov 2022",
         "Skills": "Satellite Communications, Software as a Service (SaaS), Data Integration, Wireless Networking, Internet of Things (IoT), Mobile Applications, Business Process, Mobile Communications, Telematics, Field Service Management, Cloud Services",
         "Duties": [
-          "Led the deployment of telematics solutions in transportation and energy sectors, integrating cloud-native platforms and edge computing to optimize fleet performance.",
-          "Conducted cloud-based SaaS deployments, managing API integrations and secure network provisioning to enhance system reliability.",
-          "Transitioned telematics systems to a hybrid architecture utilizing LTE-M and satellite communication, optimizing operational costs and boosting performance.",
-          "Managed cross-functional teams to design mobile utility solutions for electric power distribution, including Android applications, on-board computing, hybrid communication (LTE, Wi-Fi, Satellite), and cloud computing integration.",
-          "Collaborated with teams to define and prioritize the product roadmap, focusing on cloud scalability to reduce infrastructure costs and improve user experience.",
-          "Led vertical growth by aligning cloud optimization strategies with customer needs and market trends, driving innovation and enhancing client satisfaction.",
-          "Managed two employees directly, conducting daily tasks, providing coaching, and evaluating performance to achieve company goals."
+          "Deployed telematics solutions across leading electricity distribution companies in Brazil, utilizing cloud-native platforms, Android applications, and embedded vehicle systems to optimize field service operations, ensuring seamless communication between operational distribution centers and field service teams.",
+          "Implemented fleet management solutions for the trucking industry, ensuring seamless integration of cloud-native platforms with vehicle systems, mobile devices, computer vision, and enterprise applications to enhance safety, fleet performance and operational efficiency.",
+          "Transitioned telematics systems to a hybrid communication architecture for the rail transportation sector, reducing operational costs, enhancing system performance, safeguarding market share, and increasing product revenue and profit margins.",
+          "Managed cloud-based software deployments and API integrations for transportation and utilities providers, delivering reliable, scalable, and secure SaaS across multiple sectors.",
+          "Collaborated with engineers to design and deliver telematics solutions, integrating web and mobile applications, embedded vehicle systems, and hybrid communication networks.",
+          "Partnered with stakeholders across sales, marketing, engineering, and support to define product roadmaps aligning customer needs with company goals for cost reduction and revenue growth.",
+          "Monitored product performance metrics and user feedback, utilizing data-driven decision-making to guide innovation initiatives, ensuring continuous product improvement and customer satisfaction.",
+          "Worked with cross-functional teams to execute product Proof of Concepts, ensuring solutions adhered to market requirements and delivered measurable outcomes.",
+          "Monitor product performance metrics and user feedback to continuously refine and improve the product offering, ensuring customer satisfaction.",
+          "Mentored national dealership sales and support teams, emphasizing the benefits of the product portfolio for customers and ensuring alignment with organizational goals."
         ]
       },
       {
-        "Title": "Product Portfolio Manager",
+        "Title": "Customer Success Manager",
         "Period": "Aug 2008 to Sep 2014",
         "Skills": "Internet of Things (IoT), Telematics, Cloud Services, Technical Support, Software as a Service (SaaS), Mobile Communications, Satellite Communications, Data Integration",
         "Duties": [
-          "Led the deployment of cloud-native telematics solutions, ensuring secure integration and API development for scalable service models.",
-          "Implemented cloud-based SaaS models, standardizing infrastructure for telematics systems and enhancing service delivery efficiency.",
-          "Managed the migration of platforms from client-server to cloud architectures, optimizing resource allocation and reducing operational costs.",
-          "Enhanced customer experience by continuously optimizing cloud service performance and driving innovative product development.",
-          "Oversaw the annual budget, including planning, team coordination, resource management, third-party vendors, and reporting. Ensured cost predictability through cost forecasting, vendor management, and presenting budget variance reports (actual vs. forecasted) to senior management for decision-making."
+          "Implemented cloud-based SaaS models for telematics systems, integrating APIs and SQL databases to transition to a modern, cloud-based infrastructure.",
+          "Migrated Fleet Management Solutions for 40,000 customers in Brazil and Argentina from a client-server to a cloud-based solution using SaaS and API integration, improving service availability, scalability, and significantly reducing operational costs.",
+          "Provided third-level technical support for cloud services, API integration, and embedded vehicle systems operations, collaborating closely with software and operational engineers.",
+          "Monitored customer satisfaction, retention, and expansion, promoting data-driven commercial campaigns for enhanced customer engagement and product adoption.",
+          "Implemented an eLearning training program for customers and internal teams, integrating it with web applications accessible via the customer portal and intranet.",
+          "Managed internal and national dealership customer success teams, ensuring alignment with company objectives through proactive support and effective team management.",
+          "Oversaw the annual budget, including planning, team coordination, resource management, third-party vendor relations, and reporting, ensuring cost predictability through cost forecasting and vendor management."
         ]
       },
       {
-        "Title": "Product Development Supervisor",
+        "Title": "Product Owner",
         "Period": "Jul 2007 to Aug 2008",
         "Skills": "Product Management, Web Applications, Mobile Applications, Digital Transformation, Dispatch System Development, Prototyping and Iterative Design, Product Strategy and Roadmap Development, Cross-functional Team Leadership",
         "Duties": [
-          "Developed a cloud-enabled dispatch system tailored for public service sectors, improving real-time data integration and system performance.",
-          "Led cross-functional teams to align cloud-based solutions with business and technical requirements, driving innovation across mobile and web applications.",
-          "Conducted cloud performance assessments and optimized resource allocation, resulting in improved product launch outcomes and increased operational efficiency.",
-          "Managed the annual budget, including planning, team coordination, resources, third-party vendors, and reporting, ensuring cost predictability and making recommendations for decision-making to senior management.",
-          "Performed investment analysis for product roadmaps, including revenue projections, financial feasibility studies, risk assessments, business model evaluation, cost analysis, project phases, and break-even analysis to inform strategic decisions."
+          "Developed a cloud-enabled dispatch system for the public service sector using .NET Web Application and Windows Mobile devices, transitioning customers from voice-based to data-driven systems for improved field operations through real-time communication and GPS tracking.",
+          "Collaborated with business development, finance, and sales teams to perform investment analysis for product roadmaps, including revenue projections, financial feasibility studies, risk assessments, business model evaluation, cost analysis, project phases, and break-even analysis.",
+          "Collaborated with engineers to design and integrate telecommunication and cloud services into the dispatch system, ensuring optimal performance and reliability through a combination of web and mobile applications with robust cloud infrastructure.",
+          "Managed the dispatch system product backlog, prioritizing tasks and defining acceptance criteria to align new features with business objectives.",
+          "Mentored national dealership sales and support teams, highlighting the benefits of the product portfolio and ensuring alignment with organizational goals.",
+          "Managed the annual budget, including planning, team coordination, resource management, third-party vendor relations, and reporting, ensuring cost predictability through cost forecasting and vendor management."
         ]
       },
       {

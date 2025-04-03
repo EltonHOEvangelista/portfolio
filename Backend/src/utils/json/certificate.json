@@ -30,5 +30,13 @@
     "IssuerURL": "https://www.linkedin.com/learning/certificates/1249ce490decf80188a4b45d39dcf82d196128471ad3bae050563c3431103ceb?u=2105105",
     "CertificateImg": "ComputerVisionImg",
     "Skills": "Python, Computer Vision, Raspberry Pi"
+  },
+  {
+    "Title": "Agile Project Management with Jira Cloud",
+    "Issuer": "LinkedIn Learning",
+    "Period": "January 8, 2025",
+    "IssuerURL": "https://www.linkedin.com/learning/certificates/be8851c6b115be50deb4a5a2da07d71d9faee13cbd9a3b39eb366fa1227c9002?trk=share_certificate",
+    "CertificateImg": "AgileJiraImg",
+    "Skills": "Agile Project Management, Jira"
   }
 ]

@@ -6,6 +6,7 @@ import CloudDLImg from '../assets/certificates/cloud-digital-leader.png';
 import KotlinEssentialImg from '../assets/certificates/kotlin.png';
 import ComputerVisionImg from '../assets/certificates/ComputerVision.png';
 import aiInnovationImg from '../assets/certificates/ai_google.png';
+import AgileJiraImg from '../assets/certificates/agile_jira.png';
 
 const Certificate = () => {
 
@@ -15,6 +16,7 @@ const Certificate = () => {
         'aiInnovationImg': aiInnovationImg,
         'KotlinEssentialImg': KotlinEssentialImg,
         'ComputerVisionImg': ComputerVisionImg,
+        'AgileJiraImg': AgileJiraImg
     };
 
     //attribute and set method for list of itens
