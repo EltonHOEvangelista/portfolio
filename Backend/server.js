@@ -3,6 +3,7 @@ import express, { json } from 'express';
 import { config } from 'dotenv';
 import { connect } from 'mongoose';
 import cors from 'cors';
+import path from 'path';
 import router from './src/routes/router.js';
 
 //Load environment variables
@@ -17,6 +18,14 @@ app.use(cors());
 
 //Middleware to parse JSON bodies (req.body).
 app.use(json());
+
+// Serve static frontend files
+app.use(express.static(path.join(__dirname, '../Frontend/dist')));
+
+// For single page application (SPA) routing
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
+  });
 
 //Use the environment variables
 const port = process.env.PORT;
