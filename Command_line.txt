@@ -164,24 +164,14 @@ gcloud auth configure-docker
 docker tag imageID gcr.io/api-project-627625359026/imageName
 e.g.: docker tag sha256:bb76681e61ed394ee03e69afa89b010f63227e59ba9d367fa94e017e5a5746ed gcr.io/api-project-627625359026/portfolio
 docker push gcr.io/api-project-627625359026/imageName
-
-//Checking
+-------------------------------------------------------------------------------
+//Check container image on GCP
 gcloud container images list
-
+-------------------------------------------------------------------------------
 deploy Docker Image to Cloud Run
 -------------------------------------------------------------------------------
 deploy Docker Image to Cloud Run using GCP Console  or
 gcloud run deploy --image gcr.io/api-project-627625359026/imageName:latest --platform managed
-
-
-Docker update
--------------------------------------------------------------------------------
-gcloud auth login (GCP SDK)
-docker build -t imageName:latest ./
-docker tag imageID gcr.io/api-project-627625359026/imageName
-docker push gcr.io/api-project-627625359026/imageName
-On Docker, remove old version.
-deploy Docker Image to Cloud Run using GCP Console
 
 
 //MongoDB
