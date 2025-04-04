@@ -10,20 +10,16 @@ ENV HOST=0.0.0.0
 ENV DB_URI=mongodb+srv://mongo:mongodb%402024@cluster0.pzf1d2h.mongodb.net/Portfolio
 ENV VITE_API_URL=https://elton-evangelista.tech
 
-# Install backend dependencies
-COPY backend/package*.json ./backend/
+# Copy the backend source code and Install its dependencies
+COPY backend ./backend
 RUN cd backend && npm install
 
-# Install frontend dependencies and build it
-COPY frontend/package*.json ./frontend/
-RUN cd frontend && npm install && npm run build
-
-# Copy the rest of the app (source code)
-COPY backend ./backend
+# Copy the frontend source code, Install its dependencies and build it
 COPY frontend ./frontend
+RUN cd frontend && npm install && npm run build
 
 # Expose port
 EXPOSE 8080
 
 # Start the server (assumes Express entry point is backend/index.js)
-CMD ["node", "Backend/server.js"]
+CMD ["node", "backend/server.js"]

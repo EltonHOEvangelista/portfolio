@@ -4,6 +4,7 @@ import { config } from 'dotenv';
 import { connect } from 'mongoose';
 import cors from 'cors';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import router from './src/routes/router.js';
 
 //Load environment variables
@@ -20,7 +21,9 @@ app.use(cors());
 app.use(json());
 
 // Serve static frontend files
-app.use(express.static(path.join(__dirname, '../Frontend/dist')));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 // For single page application (SPA) routing
 app.get('*', (req, res) => {

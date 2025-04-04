@@ -122,21 +122,18 @@ git fetch origin  //This will sync your local repository with the remote branche
 
 //Docker Image
 -------------------------------------------------------------------------------
-Install Docker Desktop (login: eltonhoevangelista/Vancouver)
+Install Docker Desktop (login: eltonhoevangelista/Vancouver24)
 
-//Create Dockerfile on backend or frontend directory.
+//Create Dockerfile on root, backend or frontend directory (according to container deployment).
 
-Terminal:
-
-//Check status
+//On Terminal, check docker status:
 docker --version
+//login
 docker login -u eltonhoevangelista
 
 //build docker image on Docker. The -t flag tags your image with a name. The ./ lets Docker know where it can find the Dockerfile.
 go to backend directory
 docker build -t portfolio-backend ./
-go to frontend directory
-docker build -t portfolio-app ./
 
 //Frontend: Modify vite.config.js (port 8080 in production and 4173 in local test)
 export default defineConfig({
@@ -147,11 +144,13 @@ export default defineConfig({
   },
 })
 
+go to frontend directory
+docker build -t portfolio-app ./
+
 //Local test
 docker run -p 8080:8080 imageID   //backend
-docker run -p 4173:4173 imageID   //frontend (vite.config.js must be updated)
-//-p 4173:4173 maps port 4173 of the container to port 4173 on your local machine.
-//http://localhost:4173 (vite frontend) or 8080 (backend)
+docker run -p 4173:4173 imageID   //frontend
+
 //docker logs <container_id>
 //docker ps (to see running containers)
 //docker stop <container_id>
