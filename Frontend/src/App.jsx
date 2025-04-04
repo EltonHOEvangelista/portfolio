@@ -18,11 +18,11 @@ function App() {
     <div className='page-container'>
       <Header />
       <Routes>
-        <Route path="/" element={< Home/>} />
-        <Route path="/education" element={< Education/>} />
-        <Route path="/experience" element={< Experience/>} />
-        <Route path="/industry" element={< Industry/>} />
-        <Route path="/certificate" element={< Certificate/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/industry" element={<Industry />} />
+        <Route path="/certificate" element={<Certificate />} />
       </Routes>
       <Footer />
     </div>

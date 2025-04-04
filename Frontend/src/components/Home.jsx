@@ -9,7 +9,7 @@ const Home = () => {
 
     //Fetch data from backend
     const fetchAbout = () => {
-        axios.get(import.meta.env.VITE_API_URL)
+        axios.get(`${import.meta.env.VITE_API_URL}/api`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.aboutModels)) {
@@ -28,7 +28,7 @@ const Home = () => {
     //Handle load initial data
     const loadData = () => {
 
-        axios.post(`${import.meta.env.VITE_API_URL}/load`)
+        axios.post(`${import.meta.env.VITE_API_URL}/api/load`)
         .then(response => {
           console.log('Data loaded: ', response.data);
           fetchAbout();

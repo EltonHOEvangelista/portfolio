@@ -24,7 +24,7 @@ const Certificate = () => {
 
     //Fetch data from backend
     const fetchCertificate = () => {
-        axios.get(`${import.meta.env.VITE_API_URL}/certificate`)
+        axios.get(`${import.meta.env.VITE_API_URL}/api/certificate`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.certificateModels)) {

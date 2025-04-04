@@ -24,7 +24,7 @@ const Industry = () => {
 
     //Fetch data from backend
     const fetchIndustry = () => {
-        axios.get(`${import.meta.env.VITE_API_URL}/industry`)
+        axios.get(`${import.meta.env.VITE_API_URL}/api/industry`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.industryModels)) {

@@ -20,6 +20,9 @@ app.use(cors());
 //Middleware to parse JSON bodies (req.body).
 app.use(json());
 
+//Register backend routes
+app.use('/api', router);
+
 // Serve static frontend files
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,6 +49,3 @@ connect(mongoUri)
     .catch((error) => {
         console.error('Error connecting to MongoDB:', error);
 });
-
-//set router
-app.use('/', router);

@@ -10,7 +10,7 @@ const Footer = () => {
 
     //Fetch data from backend
     const fetchAbout = () => {
-        axios.get(import.meta.env.VITE_API_URL)
+        axios.get(`${import.meta.env.VITE_API_URL}/api`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.aboutModels)) {

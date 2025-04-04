@@ -21,7 +21,7 @@ const Experience = () => {
 
     //Fetch data from backend
     const fetchExperience = () => {
-        axios.get(`${import.meta.env.VITE_API_URL}/experience`)
+        axios.get(`${import.meta.env.VITE_API_URL}/api/experience`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.experienceModels)) {

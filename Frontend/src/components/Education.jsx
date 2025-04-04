@@ -33,7 +33,7 @@ const Education = () => {
 
     //Fetch data from backend
     const fetchEducation = () => {
-        axios.get(`${import.meta.env.VITE_API_URL}/education`)
+        axios.get(`${import.meta.env.VITE_API_URL}/api/education`)
             .then(response => {
                 // Check if the response data is an array
                 if (Array.isArray(response.data.educationModels)) {
